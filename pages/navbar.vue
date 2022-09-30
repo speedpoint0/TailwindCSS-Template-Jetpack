@@ -2,49 +2,31 @@
   <div>
     <!-- Navbar Dropdown 2 rows -->
     <section>
-      <div class="w-screen h-[500px]">
+      <div class="w-screen h-auto">
         <!-- NAVBAR -->
         <nav
-          class="w-full font-inter lg:relative lg:top-0"
+          class="w-full h-auto max-w-[1600px] mx-auto font-inter lg:relative lg:top-0"
           x-data="{isOpen: false, menuOne:false}"
         >
           <!-- CONTAINER -->
           <div
-            class="flex flex-col lg:flex-row px-6 lg:px-10 py-8 xl:px-20 relative lg:items-center lg:justify-between"
+            class="flex flex-col py-6 lg:py-4 px-6 lg:flex-row lg:px-10 lg:items-center lg:justify-between xl:px-20"
           >
             <!-- SVG LOGO - YOU CAN REPLACE THIS -->
-            <svg
-              class="top-5 left-5 absolute lg:relative lg:inset-0"
-              width="76"
-              height="32"
-              viewBox="0 0 76 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M8.256 25C13.344 25 16.848 21.424 16.848 16.264C16.848 11.032 13.272 7.456 8.088 7.456H1.944V25H8.256ZM7.8 10.288C11.424 10.288 13.608 12.544 13.608 16.264C13.608 19.912 11.472 22.168 7.968 22.168H5.016V10.288H7.8ZM24.5816 25.312C27.6776 25.312 29.8376 23.752 30.3416 21.16H27.6296C27.2936 22.288 26.2376 22.912 24.6296 22.912C22.6856 22.912 21.5816 21.856 21.3656 19.768L30.2936 19.744V18.856C30.2936 15.16 28.0376 12.784 24.4856 12.784C21.0056 12.784 18.5816 15.352 18.5816 19.072C18.5816 22.744 21.0536 25.312 24.5816 25.312ZM24.5096 15.184C26.2616 15.184 27.3896 16.264 27.3896 17.896H21.4376C21.7256 16.12 22.7816 15.184 24.5096 15.184ZM35.4814 25H38.3614L43.3054 13.144H40.2814L38.1214 18.592C37.6174 19.888 37.1854 21.136 37.0174 21.88C36.8734 21.232 36.4654 20.008 35.9614 18.592L33.8974 13.144H30.7774L35.4814 25ZM46.4526 10.768C47.4126 10.768 48.2286 9.976 48.2286 8.992C48.2286 8.008 47.4126 7.24 46.4526 7.24C45.4686 7.24 44.6766 8.008 44.6766 8.992C44.6766 9.976 45.4686 10.768 46.4526 10.768ZM42.1566 30.568C42.9246 30.784 43.3566 30.832 43.9086 30.832C46.4766 30.832 47.9166 29.2 47.9166 26.68V13.144H44.9886V26.344C44.9886 27.544 44.6526 28.12 43.6446 28.12C43.2846 28.12 43.0446 28.096 42.6366 27.976L42.1566 30.568ZM50.2457 19.048C50.2457 22.744 52.9097 25.288 56.5817 25.288C60.2537 25.288 62.9177 22.744 62.9177 19.048C62.9177 15.352 60.2537 12.808 56.5817 12.808C52.9097 12.808 50.2457 15.352 50.2457 19.048ZM53.1737 19.048C53.1737 16.888 54.5657 15.424 56.5817 15.424C58.5977 15.424 59.9897 16.888 59.9897 19.048C59.9897 21.208 58.5977 22.672 56.5817 22.672C54.5657 22.672 53.1737 21.208 53.1737 19.048ZM63.7613 30.496C64.4093 30.664 65.1293 30.76 65.9453 30.76C67.8893 30.76 69.1373 29.848 70.0253 27.64L75.8333 13.144H72.8093L69.5933 21.784L66.5453 13.144H63.4493L68.2253 25.504L67.8893 26.392C67.3853 27.784 66.6653 28.048 65.5133 28.048H63.7613V30.496Z"
-                fill="#160042"
-              />
-              <circle
-                cx="46"
-                cy="8"
-                r="3"
-                fill="url(#paint0_linear_807_8267)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_807_8267"
-                  x1="44.5"
-                  y1="6"
-                  x2="48.6491"
-                  y2="6.18668"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#936EFF" />
-                  <stop offset="1" stop-color="#0BC4FF" />
-                </linearGradient>
-              </defs>
-            </svg>
+            <a href="#">
+              <svg
+                class="left-5 relative lg:inset-0"
+                width="75"
+                height="24"
+                viewBox="0 0 75 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.256 18C12.344 18 15.848 14.424 15.848 9.264C15.848 4.032 12.272 0.456 7.088 0.456H0.944V18H7.256ZM6.8 3.288C10.424 3.288 12.608 5.544 12.608 9.264C12.608 12.912 10.472 15.168 6.968 15.168H4.016V3.288H6.8ZM23.5816 18.312C26.6776 18.312 28.8376 16.752 29.3416 14.16H26.6296C26.2936 15.288 25.2376 15.912 23.6296 15.912C21.6856 15.912 20.5816 14.856 20.3656 12.768L29.2936 12.744V11.856C29.2936 8.16 27.0376 5.784 23.4856 5.784C20.0056 5.784 17.5816 8.352 17.5816 12.072C17.5816 15.744 20.0536 18.312 23.5816 18.312ZM23.5096 8.184C25.2616 8.184 26.3896 9.264 26.3896 10.896H20.4376C20.7256 9.12 21.7816 8.184 23.5096 8.184ZM34.4814 18H37.3614L42.3054 6.144H39.2814L37.1214 11.592C36.6174 12.888 36.1854 14.136 36.0174 14.88C35.8734 14.232 35.4654 13.008 34.9614 11.592L32.8974 6.144H29.7774L34.4814 18ZM45.4526 3.768C46.4126 3.768 47.2286 2.976 47.2286 1.992C47.2286 1.008 46.4126 0.24 45.4526 0.24C44.4686 0.24 43.6766 1.008 43.6766 1.992C43.6766 2.976 44.4686 3.768 45.4526 3.768ZM41.1566 23.568C41.9246 23.784 42.3566 23.832 42.9086 23.832C45.4766 23.832 46.9166 22.2 46.9166 19.68V6.144H43.9886V19.344C43.9886 20.544 43.6526 21.12 42.6446 21.12C42.2846 21.12 42.0446 21.096 41.6366 20.976L41.1566 23.568ZM49.2457 12.048C49.2457 15.744 51.9097 18.288 55.5817 18.288C59.2537 18.288 61.9177 15.744 61.9177 12.048C61.9177 8.352 59.2537 5.808 55.5817 5.808C51.9097 5.808 49.2457 8.352 49.2457 12.048ZM52.1737 12.048C52.1737 9.888 53.5657 8.424 55.5817 8.424C57.5977 8.424 58.9897 9.888 58.9897 12.048C58.9897 14.208 57.5977 15.672 55.5817 15.672C53.5657 15.672 52.1737 14.208 52.1737 12.048ZM62.7613 23.496C63.4093 23.664 64.1293 23.76 64.9453 23.76C66.8893 23.76 68.1373 22.848 69.0253 20.64L74.8333 6.144H71.8093L68.5933 14.784L65.5453 6.144H62.4493L67.2253 18.504L66.8893 19.392C66.3853 20.784 65.6653 21.048 64.5133 21.048H62.7613V23.496Z"
+                  fill="black"
+                /></svg
+            ></a>
 
             <!-- MENU CONTENT 1 -->
             <div
@@ -55,9 +37,9 @@
               <div class="flex flex-col relative">
                 <a
                   x-on:click.prevent="menuOne = !menuOne"
-                  href=""
-                  class="lg:hover:bg-[#F7F8FD] rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF] flex flex-row"
-                  x-bind:class="menuOne ? 'text-[#642EFF] lg:border lg:border-[#642EFF] lg:bg-[#F7F8FD]' : 'text-black lg:border lg:border-white' "
+                  href="#"
+                  class="lg:hover:bg-gray-50 rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
+                  x-bind:class="menuOne ? 'text-gray-800 lg:border lg:border-gray-600 lg:bg-gray-50' : 'text-black lg:border lg:border-white' "
                   >Component
                   <svg
                     x-bind:class="menuOne ? 'rotate-180' : 'rotate-0' "
@@ -73,14 +55,14 @@
 
                 <!-- DROP DOWN MENU ONE -->
                 <div
-                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-2xl py-5 lg:w-[800px] xl:w-[950px]"
+                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-lg py-5 lg:w-[800px] xl:w-[950px]"
                   x-show="menuOne"
                   x-on:click.outside="menuOne = false"
                 >
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-2xl lg:basis-[248px] grow"
-                    href=""
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    href="#"
                   >
                     <!-- ICON -->
                     <div class="relative">
@@ -154,10 +136,6 @@
                           </linearGradient>
                         </defs>
                       </svg>
-
-                      <span
-                        class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl w-[30px]"
-                      ></span>
                     </div>
 
                     <!-- TEXT -->
@@ -176,8 +154,8 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-2xl lg:basis-[248px] grow"
-                    href=""
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    href="#"
                   >
                     <!-- ICON -->
                     <div class="relative">
@@ -236,10 +214,6 @@
                           </linearGradient>
                         </defs>
                       </svg>
-
-                      <span
-                        class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl w-[30px]"
-                      ></span>
                     </div>
 
                     <!-- TEXT -->
@@ -257,8 +231,8 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-2xl lg:basis-[248px] grow"
-                    href=""
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    href="#"
                   >
                     <!-- ICON -->
                     <div class="relative">
@@ -287,10 +261,6 @@
                           </linearGradient>
                         </defs>
                       </svg>
-
-                      <span
-                        class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl w-[30px]"
-                      ></span>
                     </div>
 
                     <!-- TEXT -->
@@ -309,8 +279,8 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-2xl lg:basis-[248px] grow"
-                    href=""
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    href="#"
                   >
                     <!-- ICON -->
                     <div class="relative">
@@ -339,10 +309,6 @@
                           </linearGradient>
                         </defs>
                       </svg>
-
-                      <span
-                        class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl w-[30px]"
-                      ></span>
                     </div>
 
                     <!-- TEXT -->
@@ -360,8 +326,8 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-2xl lg:basis-[248px] grow"
-                    href=""
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    href="#"
                   >
                     <!-- ICON -->
                     <div class="relative">
@@ -435,10 +401,6 @@
                           </linearGradient>
                         </defs>
                       </svg>
-
-                      <span
-                        class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl w-[30px]"
-                      ></span>
                     </div>
 
                     <!-- TEXT -->
@@ -456,8 +418,8 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-2xl lg:basis-[248px] grow"
-                    href=""
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    href="#"
                   >
                     <!-- ICON -->
                     <div class="relative">
@@ -501,10 +463,6 @@
                           </linearGradient>
                         </defs>
                       </svg>
-
-                      <span
-                        class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl w-[30px]"
-                      ></span>
                     </div>
 
                     <!-- TEXT -->
@@ -524,43 +482,43 @@
               </div>
 
               <a
-                href=""
-                class="lg:hover:bg-[#F7F8FD] font-inter rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF]"
+                href="#"
+                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Templates</a
               >
               <a
-                href=""
-                class="lg:hover:bg-[#F7F8FD] font-inter rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF]"
+                href="#"
+                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Pricing</a
               >
               <a
-                href=""
-                class="lg:hover:bg-[#F7F8FD] font-inter rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF] pb-8 lg:pb-0"
+                href="#"
+                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
                 >FAQs</a
               >
             </div>
 
             <!-- MENU CONTENT 2 -->
             <div
-              class="flex flex-col lg:flex lg:flex-row space-y-8 lg:space-y-0 lg:space-x-1"
+              class="flex flex-col lg:flex lg:flex-row space-y-8 lg:space-y-0 lg:space-x-3"
               x-bind:class="isOpen ? 'show' : 'hidden'"
             >
               <a
-                href=""
-                class="lg:hover:bg-[#F7F8FD] font-inter rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF]"
+                href="#"
+                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Sign Up</a
               >
               <a
-                class="px-8 py-4 font-inter text-center bg-[#160042] text-white rounded-full hover:bg-gradient-to-r hover:from-[#936EFF] hover:to-[#0BC4FF]"
-                href=""
+                class="px-8 py-4 font-inter text-center bg-black text-white rounded-lg hover:bg-gray-800"
+                href="#"
                 >Login</a
               >
             </div>
 
             <!-- BURGER MENU -->
             <a
-              href=""
-              class="absolute top-5 right-5 lg:hidden"
+              href="#"
+              class="absolute right-5 lg:hidden"
               x-on:click.prevent="isOpen = !isOpen"
             >
               <svg
@@ -600,49 +558,31 @@
 
     <!-- Navbar Dropdown 1 row -->
     <section>
-      <div class="w-screen h-[500px]">
+      <div class="w-screen h-auto">
         <!-- NAVBAR -->
         <nav
-          class="w-full font-inter lg:relative lg:top-0"
+          class="w-full h-auto max-w-[1600px] mx-auto font-inter lg:relative lg:top-0"
           x-data="{isOpen: false, menuOne:false}"
         >
           <!-- CONTAINER -->
           <div
-            class="flex flex-col lg:flex-row px-6 lg:px-10 py-8 xl:px-20 relative lg:items-center lg:justify-between"
+            class="flex flex-col py-6 lg:py-4 px-6 lg:flex-row lg:px-10 lg:items-center lg:justify-between xl:px-20"
           >
             <!-- SVG LOGO - YOU CAN REPLACE THIS -->
-            <svg
-              class="top-5 left-5 absolute lg:relative lg:inset-0"
-              width="76"
-              height="32"
-              viewBox="0 0 76 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M8.256 25C13.344 25 16.848 21.424 16.848 16.264C16.848 11.032 13.272 7.456 8.088 7.456H1.944V25H8.256ZM7.8 10.288C11.424 10.288 13.608 12.544 13.608 16.264C13.608 19.912 11.472 22.168 7.968 22.168H5.016V10.288H7.8ZM24.5816 25.312C27.6776 25.312 29.8376 23.752 30.3416 21.16H27.6296C27.2936 22.288 26.2376 22.912 24.6296 22.912C22.6856 22.912 21.5816 21.856 21.3656 19.768L30.2936 19.744V18.856C30.2936 15.16 28.0376 12.784 24.4856 12.784C21.0056 12.784 18.5816 15.352 18.5816 19.072C18.5816 22.744 21.0536 25.312 24.5816 25.312ZM24.5096 15.184C26.2616 15.184 27.3896 16.264 27.3896 17.896H21.4376C21.7256 16.12 22.7816 15.184 24.5096 15.184ZM35.4814 25H38.3614L43.3054 13.144H40.2814L38.1214 18.592C37.6174 19.888 37.1854 21.136 37.0174 21.88C36.8734 21.232 36.4654 20.008 35.9614 18.592L33.8974 13.144H30.7774L35.4814 25ZM46.4526 10.768C47.4126 10.768 48.2286 9.976 48.2286 8.992C48.2286 8.008 47.4126 7.24 46.4526 7.24C45.4686 7.24 44.6766 8.008 44.6766 8.992C44.6766 9.976 45.4686 10.768 46.4526 10.768ZM42.1566 30.568C42.9246 30.784 43.3566 30.832 43.9086 30.832C46.4766 30.832 47.9166 29.2 47.9166 26.68V13.144H44.9886V26.344C44.9886 27.544 44.6526 28.12 43.6446 28.12C43.2846 28.12 43.0446 28.096 42.6366 27.976L42.1566 30.568ZM50.2457 19.048C50.2457 22.744 52.9097 25.288 56.5817 25.288C60.2537 25.288 62.9177 22.744 62.9177 19.048C62.9177 15.352 60.2537 12.808 56.5817 12.808C52.9097 12.808 50.2457 15.352 50.2457 19.048ZM53.1737 19.048C53.1737 16.888 54.5657 15.424 56.5817 15.424C58.5977 15.424 59.9897 16.888 59.9897 19.048C59.9897 21.208 58.5977 22.672 56.5817 22.672C54.5657 22.672 53.1737 21.208 53.1737 19.048ZM63.7613 30.496C64.4093 30.664 65.1293 30.76 65.9453 30.76C67.8893 30.76 69.1373 29.848 70.0253 27.64L75.8333 13.144H72.8093L69.5933 21.784L66.5453 13.144H63.4493L68.2253 25.504L67.8893 26.392C67.3853 27.784 66.6653 28.048 65.5133 28.048H63.7613V30.496Z"
-                fill="#160042"
-              />
-              <circle
-                cx="46"
-                cy="8"
-                r="3"
-                fill="url(#paint0_linear_807_8267)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_807_8267"
-                  x1="44.5"
-                  y1="6"
-                  x2="48.6491"
-                  y2="6.18668"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#936EFF" />
-                  <stop offset="1" stop-color="#0BC4FF" />
-                </linearGradient>
-              </defs>
-            </svg>
+            <a href="#">
+              <svg
+                class="left-5 relative lg:inset-0"
+                width="75"
+                height="24"
+                viewBox="0 0 75 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.256 18C12.344 18 15.848 14.424 15.848 9.264C15.848 4.032 12.272 0.456 7.088 0.456H0.944V18H7.256ZM6.8 3.288C10.424 3.288 12.608 5.544 12.608 9.264C12.608 12.912 10.472 15.168 6.968 15.168H4.016V3.288H6.8ZM23.5816 18.312C26.6776 18.312 28.8376 16.752 29.3416 14.16H26.6296C26.2936 15.288 25.2376 15.912 23.6296 15.912C21.6856 15.912 20.5816 14.856 20.3656 12.768L29.2936 12.744V11.856C29.2936 8.16 27.0376 5.784 23.4856 5.784C20.0056 5.784 17.5816 8.352 17.5816 12.072C17.5816 15.744 20.0536 18.312 23.5816 18.312ZM23.5096 8.184C25.2616 8.184 26.3896 9.264 26.3896 10.896H20.4376C20.7256 9.12 21.7816 8.184 23.5096 8.184ZM34.4814 18H37.3614L42.3054 6.144H39.2814L37.1214 11.592C36.6174 12.888 36.1854 14.136 36.0174 14.88C35.8734 14.232 35.4654 13.008 34.9614 11.592L32.8974 6.144H29.7774L34.4814 18ZM45.4526 3.768C46.4126 3.768 47.2286 2.976 47.2286 1.992C47.2286 1.008 46.4126 0.24 45.4526 0.24C44.4686 0.24 43.6766 1.008 43.6766 1.992C43.6766 2.976 44.4686 3.768 45.4526 3.768ZM41.1566 23.568C41.9246 23.784 42.3566 23.832 42.9086 23.832C45.4766 23.832 46.9166 22.2 46.9166 19.68V6.144H43.9886V19.344C43.9886 20.544 43.6526 21.12 42.6446 21.12C42.2846 21.12 42.0446 21.096 41.6366 20.976L41.1566 23.568ZM49.2457 12.048C49.2457 15.744 51.9097 18.288 55.5817 18.288C59.2537 18.288 61.9177 15.744 61.9177 12.048C61.9177 8.352 59.2537 5.808 55.5817 5.808C51.9097 5.808 49.2457 8.352 49.2457 12.048ZM52.1737 12.048C52.1737 9.888 53.5657 8.424 55.5817 8.424C57.5977 8.424 58.9897 9.888 58.9897 12.048C58.9897 14.208 57.5977 15.672 55.5817 15.672C53.5657 15.672 52.1737 14.208 52.1737 12.048ZM62.7613 23.496C63.4093 23.664 64.1293 23.76 64.9453 23.76C66.8893 23.76 68.1373 22.848 69.0253 20.64L74.8333 6.144H71.8093L68.5933 14.784L65.5453 6.144H62.4493L67.2253 18.504L66.8893 19.392C66.3853 20.784 65.6653 21.048 64.5133 21.048H62.7613V23.496Z"
+                  fill="black"
+                /></svg
+            ></a>
 
             <!-- MENU CONTENT 1 -->
             <div
@@ -653,9 +593,9 @@
               <div class="flex flex-col relative">
                 <a
                   x-on:click.prevent="menuOne = !menuOne"
-                  href=""
-                  class="lg:hover:bg-[#F7F8FD] rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF] flex flex-row"
-                  x-bind:class="menuOne ? 'text-[#642EFF] lg:border lg:border-[#642EFF] lg:bg-[#F7F8FD]' : 'text-black lg:border lg:border-white' "
+                  href="#"
+                  class="lg:hover:bg-gray-50 rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
+                  x-bind:class="menuOne ? 'text-gray-800 lg:border lg:border-gray-600 lg:bg-gray-50' : 'text-black lg:border lg:border-white' "
                   >Component
                   <svg
                     x-bind:class="menuOne ? 'rotate-180' : 'rotate-0' "
@@ -671,14 +611,14 @@
 
                 <!-- DROP DOWN MENU ONE -->
                 <div
-                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-2xl py-5 lg:w-[800px] xl:w-[950px]"
+                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-lg py-5 lg:w-[800px] xl:w-[950px]"
                   x-show="menuOne"
                   x-on:click.outside="menuOne = false"
                 >
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-2xl lg:basis-[248px] grow"
-                    href=""
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    href="#"
                   >
                     <!-- ICON -->
                     <div class="relative">
@@ -752,10 +692,6 @@
                           </linearGradient>
                         </defs>
                       </svg>
-
-                      <span
-                        class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl w-[30px]"
-                      ></span>
                     </div>
 
                     <!-- TEXT -->
@@ -774,8 +710,8 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-2xl lg:basis-[248px] grow"
-                    href=""
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    href="#"
                   >
                     <!-- ICON -->
                     <div class="relative">
@@ -834,10 +770,6 @@
                           </linearGradient>
                         </defs>
                       </svg>
-
-                      <span
-                        class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl w-[30px]"
-                      ></span>
                     </div>
 
                     <!-- TEXT -->
@@ -855,8 +787,8 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-2xl lg:basis-[248px] grow"
-                    href=""
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    href="#"
                   >
                     <!-- ICON -->
                     <div class="relative">
@@ -885,10 +817,6 @@
                           </linearGradient>
                         </defs>
                       </svg>
-
-                      <span
-                        class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl w-[30px]"
-                      ></span>
                     </div>
 
                     <!-- TEXT -->
@@ -908,43 +836,43 @@
               </div>
 
               <a
-                href=""
-                class="lg:hover:bg-[#F7F8FD] font-inter rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF]"
+                href="#"
+                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Templates</a
               >
               <a
-                href=""
-                class="lg:hover:bg-[#F7F8FD] font-inter rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF]"
+                href="#"
+                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Pricing</a
               >
               <a
-                href=""
-                class="lg:hover:bg-[#F7F8FD] font-inter rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF] pb-8 lg:pb-0"
+                href="#"
+                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
                 >FAQs</a
               >
             </div>
 
             <!-- MENU CONTENT 2 -->
             <div
-              class="flex flex-col lg:flex lg:flex-row space-y-8 lg:space-y-0 lg:space-x-1"
+              class="flex flex-col lg:flex lg:flex-row space-y-8 lg:space-y-0 lg:space-x-3"
               x-bind:class="isOpen ? 'show' : 'hidden'"
             >
               <a
-                href=""
-                class="lg:hover:bg-[#F7F8FD] font-inter rounded-full lg:px-6 lg:py-4 lg:hover:text-[#642EFF]"
+                href="#"
+                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Sign Up</a
               >
               <a
-                class="px-8 py-4 font-inter text-center bg-[#160042] text-white rounded-full hover:bg-gradient-to-r hover:from-[#936EFF] hover:to-[#0BC4FF]"
-                href=""
+                class="px-8 py-4 font-inter text-center bg-black text-white rounded-lg hover:bg-gray-800"
+                href="#"
                 >Login</a
               >
             </div>
 
             <!-- BURGER MENU -->
             <a
-              href=""
-              class="absolute top-5 right-5 lg:hidden"
+              href="#"
+              class="absolute right-5 lg:hidden"
               x-on:click.prevent="isOpen = !isOpen"
             >
               <svg
