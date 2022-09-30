@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "Satoshi";
+		font-weight: 900;
+		font-style: black;
+		src: url("https://firebasestorage.googleapis.com/v0/b/tailwindfolio.appspot.com/o/fonts%2FSatoshi-Black.otf?alt=media&token=4c4d2d80-8421-4060-a9ca-a31cce5a1626") format("otf");
+	}
+}
