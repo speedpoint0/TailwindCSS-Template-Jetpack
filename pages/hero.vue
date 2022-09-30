@@ -25,8 +25,9 @@
                 <path
                   d="M7.256 18C12.344 18 15.848 14.424 15.848 9.264C15.848 4.032 12.272 0.456 7.088 0.456H0.944V18H7.256ZM6.8 3.288C10.424 3.288 12.608 5.544 12.608 9.264C12.608 12.912 10.472 15.168 6.968 15.168H4.016V3.288H6.8ZM23.5816 18.312C26.6776 18.312 28.8376 16.752 29.3416 14.16H26.6296C26.2936 15.288 25.2376 15.912 23.6296 15.912C21.6856 15.912 20.5816 14.856 20.3656 12.768L29.2936 12.744V11.856C29.2936 8.16 27.0376 5.784 23.4856 5.784C20.0056 5.784 17.5816 8.352 17.5816 12.072C17.5816 15.744 20.0536 18.312 23.5816 18.312ZM23.5096 8.184C25.2616 8.184 26.3896 9.264 26.3896 10.896H20.4376C20.7256 9.12 21.7816 8.184 23.5096 8.184ZM34.4814 18H37.3614L42.3054 6.144H39.2814L37.1214 11.592C36.6174 12.888 36.1854 14.136 36.0174 14.88C35.8734 14.232 35.4654 13.008 34.9614 11.592L32.8974 6.144H29.7774L34.4814 18ZM45.4526 3.768C46.4126 3.768 47.2286 2.976 47.2286 1.992C47.2286 1.008 46.4126 0.24 45.4526 0.24C44.4686 0.24 43.6766 1.008 43.6766 1.992C43.6766 2.976 44.4686 3.768 45.4526 3.768ZM41.1566 23.568C41.9246 23.784 42.3566 23.832 42.9086 23.832C45.4766 23.832 46.9166 22.2 46.9166 19.68V6.144H43.9886V19.344C43.9886 20.544 43.6526 21.12 42.6446 21.12C42.2846 21.12 42.0446 21.096 41.6366 20.976L41.1566 23.568ZM49.2457 12.048C49.2457 15.744 51.9097 18.288 55.5817 18.288C59.2537 18.288 61.9177 15.744 61.9177 12.048C61.9177 8.352 59.2537 5.808 55.5817 5.808C51.9097 5.808 49.2457 8.352 49.2457 12.048ZM52.1737 12.048C52.1737 9.888 53.5657 8.424 55.5817 8.424C57.5977 8.424 58.9897 9.888 58.9897 12.048C58.9897 14.208 57.5977 15.672 55.5817 15.672C53.5657 15.672 52.1737 14.208 52.1737 12.048ZM62.7613 23.496C63.4093 23.664 64.1293 23.76 64.9453 23.76C66.8893 23.76 68.1373 22.848 69.0253 20.64L74.8333 6.144H71.8093L68.5933 14.784L65.5453 6.144H62.4493L67.2253 18.504L66.8893 19.392C66.3853 20.784 65.6653 21.048 64.5133 21.048H62.7613V23.496Z"
                   fill="black"
-                /></svg
-            ></a>
+                />
+              </svg>
+            </a>
 
             <!-- MENU CONTENT 1 -->
             <div
@@ -38,7 +39,7 @@
                 <a
                   x-on:click.prevent="menuOne = !menuOne"
                   href="#"
-                  class="lg:hover:bg-gray-50 rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
+                  class="lg:hover:bg-gray-50 rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
                   x-bind:class="menuOne ? 'text-gray-800 lg:border lg:border-gray-600 lg:bg-gray-50' : 'text-black lg:border lg:border-white' "
                   >Component
                   <svg
@@ -55,13 +56,13 @@
 
                 <!-- DROP DOWN MENU ONE -->
                 <div
-                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-lg py-5 lg:w-[800px] xl:w-[950px]"
+                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-md py-5 lg:w-[800px] xl:w-[950px]"
                   x-show="menuOne"
                   x-on:click.outside="menuOne = false"
                 >
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -154,7 +155,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -231,7 +232,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -281,17 +282,17 @@
 
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Templates</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Pricing</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
                 >FAQs</a
               >
             </div>
@@ -303,11 +304,11 @@
             >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Sign Up</a
               >
               <a
-                class="px-8 py-4 font-inter text-center bg-black text-white rounded-lg hover:bg-gray-800"
+                class="px-8 py-4 font-inter text-center bg-black text-white rounded-md hover:bg-gray-800"
                 href="#"
                 >Login</a
               >
@@ -353,7 +354,7 @@
         </nav>
 
         <header
-          class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-10 lg:px-10 lg:items-start lg:flex-row lg:justify-between xl:px-20"
+          class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-14 lg:px-10 lg:items-start lg:flex-row lg:justify-between xl:px-20"
         >
           <!-- TEXT SECTION -->
           <div class="max-w-[556px] lg:mr-12">
@@ -375,13 +376,13 @@
               class="flex flex-row flex-wrap justify-center lg:justify-start items-center mt-10"
             >
               <button
-                class="px-6 py-4 font-inter text-base text-white bg-black w-full rounded-[6px] max-w-[400px] md:w-auto"
+                class="px-6 py-4 font-inter text-base text-white bg-black w-full rounded-md max-w-[400px] md:w-auto"
               >
                 Try it out
               </button>
 
               <button
-                class="bg-white border border-gray-800 text-black rounded-[6px] px-6 py-4 font-inter text-base flex flex-row w-full max-w-[400px] items-center justify-center mt-6 md:w-auto md:mt-0 md:ml-6"
+                class="bg-white border border-gray-800 text-black rounded-md px-6 py-4 font-inter text-base flex flex-row w-full max-w-[400px] items-center justify-center mt-6 md:w-auto md:mt-0 md:ml-6"
               >
                 <p>Explore Components</p>
 
@@ -475,7 +476,7 @@
                 <a
                   x-on:click.prevent="menuOne = !menuOne"
                   href="#"
-                  class="lg:hover:bg-gray-50 rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
+                  class="lg:hover:bg-gray-50 rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
                   x-bind:class="menuOne ? 'text-gray-800 lg:border lg:border-gray-600 lg:bg-gray-50' : 'text-black lg:border lg:border-white' "
                   >Component
                   <svg
@@ -492,13 +493,13 @@
 
                 <!-- DROP DOWN MENU ONE -->
                 <div
-                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-lg py-5 lg:w-[800px] xl:w-[950px]"
+                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-md py-5 lg:w-[800px] xl:w-[950px]"
                   x-show="menuOne"
                   x-on:click.outside="menuOne = false"
                 >
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -591,7 +592,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -668,7 +669,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -718,17 +719,17 @@
 
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Templates</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Pricing</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
                 >FAQs</a
               >
             </div>
@@ -740,11 +741,11 @@
             >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Sign Up</a
               >
               <a
-                class="px-8 py-4 font-inter text-center bg-black text-white rounded-lg hover:bg-gray-800"
+                class="px-8 py-4 font-inter text-center bg-black text-white rounded-md hover:bg-gray-800"
                 href="#"
                 >Login</a
               >
@@ -790,7 +791,7 @@
         </nav>
 
         <header
-          class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-10 lg:px-10 lg:flex-row lg:lg:items-start lg:justify-between xl:px-20"
+          class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-14 lg:px-10 lg:flex-row lg:lg:items-start lg:justify-between xl:px-20"
         >
           <!-- TEXT SECTION -->
           <div class="max-w-[556px] lg:mr-12">
@@ -812,13 +813,13 @@
               class="flex flex-row flex-wrap justify-center lg:justify-start items-center mt-10"
             >
               <button
-                class="px-6 py-4 font-inter text-base text-white bg-black w-full rounded-[6px] max-w-[400px] md:w-auto"
+                class="px-6 py-4 font-inter text-base text-white bg-black w-full rounded-md max-w-[400px] md:w-auto"
               >
                 Try it out
               </button>
 
               <button
-                class="bg-white border border-gray-800 text-black rounded-[6px] px-6 py-4 font-inter text-base flex flex-row w-full max-w-[400px] items-center justify-center mt-6 md:w-auto md:mt-0 md:ml-6"
+                class="bg-white border border-gray-800 text-black rounded-md px-6 py-4 font-inter text-base flex flex-row w-full max-w-[400px] items-center justify-center mt-6 md:w-auto md:mt-0 md:ml-6"
               >
                 <p>Explore Components</p>
 
@@ -1009,7 +1010,7 @@
                 <a
                   x-on:click.prevent="menuOne = !menuOne"
                   href="#"
-                  class="lg:hover:bg-gray-50 rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
+                  class="lg:hover:bg-gray-50 rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
                   x-bind:class="menuOne ? 'text-gray-800 lg:border lg:border-gray-600 lg:bg-gray-50' : 'text-black lg:border lg:border-white' "
                   >Component
                   <svg
@@ -1026,13 +1027,13 @@
 
                 <!-- DROP DOWN MENU ONE -->
                 <div
-                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-lg py-5 lg:w-[800px] xl:w-[950px]"
+                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-md py-5 lg:w-[800px] xl:w-[950px]"
                   x-show="menuOne"
                   x-on:click.outside="menuOne = false"
                 >
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -1125,7 +1126,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -1202,7 +1203,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -1252,17 +1253,17 @@
 
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Templates</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Pricing</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
                 >FAQs</a
               >
             </div>
@@ -1274,11 +1275,11 @@
             >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Sign Up</a
               >
               <a
-                class="px-8 py-4 font-inter text-center bg-black text-white rounded-lg hover:bg-gray-800"
+                class="px-8 py-4 font-inter text-center bg-black text-white rounded-md hover:bg-gray-800"
                 href="#"
                 >Login</a
               >
@@ -1324,7 +1325,7 @@
         </nav>
 
         <header
-          class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-10 lg:px-10 lg:flex-row lg:lg:items-start lg:justify-between xl:px-20"
+          class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-14 lg:px-10 lg:flex-row lg:lg:items-start lg:justify-between xl:px-20"
         >
           <!-- TEXT SECTION -->
           <div class="max-w-[556px] lg:mr-12">
@@ -1346,10 +1347,10 @@
             <form
               action=""
               id="hero-form"
-              class="flex flex-row flex-wrap justify-center items-center mt-12 inter text-base rounded-lg relative max-w-[400px] md:max-w-[450px] mx-auto lg:mx-0"
+              class="flex flex-row flex-wrap justify-center items-center mt-12 inter text-base rounded-md relative max-w-[400px] md:max-w-[450px] mx-auto lg:mx-0"
             >
               <input
-                class="px-6 py-4 border font-inter text-base text-center md:text-left border-gray-800 w-full rounded-lg"
+                class="px-6 py-4 border font-inter text-base text-center md:text-left border-gray-800 w-full rounded-md"
                 type="email"
                 placeholder="Enter your email"
                 id="email"
@@ -1357,7 +1358,7 @@
 
               <button
                 type="submit"
-                class="px-6 py-4 mt-6 font-inter text-base right-0 top-0 text-white border border-gray-800 bg-black w-full rounded-lg max-w-[400px] md:mt-0 md:ml-6 md:w-auto md:absolute md:py-3 md:right-1 md:top-1 hover:bg-gray-800 hover:border-gray-400"
+                class="px-6 py-4 mt-6 font-inter text-base right-0 top-0 text-white border border-gray-800 bg-black w-full rounded-md max-w-[400px] md:mt-0 md:ml-6 md:w-auto md:absolute md:py-3 md:right-1 md:top-1 hover:bg-gray-800 hover:border-gray-400"
               >
                 Subscribe
               </button>
@@ -1415,7 +1416,7 @@
 
     <!-- Hero - Large Image -->
     <section>
-      <div class="w-screen relative lg:pt-40 pb-12">
+      <div class="w-screen relative pb-12">
         <!-- NAVBAR -->
         <nav
           class="w-full h-auto max-w-[1600px] mx-auto font-inter lg:relative lg:top-0"
@@ -1451,7 +1452,7 @@
                 <a
                   x-on:click.prevent="menuOne = !menuOne"
                   href="#"
-                  class="lg:hover:bg-gray-50 rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
+                  class="lg:hover:bg-gray-50 rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
                   x-bind:class="menuOne ? 'text-gray-800 lg:border lg:border-gray-600 lg:bg-gray-50' : 'text-black lg:border lg:border-white' "
                   >Component
                   <svg
@@ -1468,13 +1469,13 @@
 
                 <!-- DROP DOWN MENU ONE -->
                 <div
-                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-lg py-5 lg:w-[800px] xl:w-[950px]"
+                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-md py-5 lg:w-[800px] xl:w-[950px]"
                   x-show="menuOne"
                   x-on:click.outside="menuOne = false"
                 >
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -1567,7 +1568,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -1644,7 +1645,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -1694,17 +1695,17 @@
 
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Templates</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Pricing</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
                 >FAQs</a
               >
             </div>
@@ -1716,11 +1717,11 @@
             >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Sign Up</a
               >
               <a
-                class="px-8 py-4 font-inter text-center bg-black text-white rounded-lg hover:bg-gray-800"
+                class="px-8 py-4 font-inter text-center bg-black text-white rounded-md hover:bg-gray-800"
                 href="#"
                 >Login</a
               >
@@ -1767,7 +1768,7 @@
 
         <!-- TEXT DIV -->
         <div
-          class="max-w-[550px] lg:max-w-[800px] flex flex-col items-center justify-center px-6 lg:px-10 lg:mt-10 mx-auto text-center"
+          class="max-w-[550px] lg:max-w-[800px] flex flex-col items-center justify-center px-6 mt-14 lg:px-10 mx-auto text-center"
         >
           <h1
             class="text-black text-[55px] text-center font-bold leading-[72px] xl:text-[60px] xl:leading-[85px] mx-auto"
@@ -1786,13 +1787,13 @@
             class="flex flex-row flex-wrap justify-center lg:justify-start items-center mt-12"
           >
             <button
-              class="px-6 py-4 font-inter text-base text-white bg-black w-full rounded-[6px] max-w-[400px] md:w-auto"
+              class="px-6 py-4 font-inter text-base text-white bg-black w-full rounded-md max-w-[400px] md:w-auto"
             >
               Try it out
             </button>
 
             <button
-              class="bg-white border border-gray-800 text-black rounded-[6px] px-6 py-4 font-inter text-base flex flex-row w-full max-w-[400px] items-center justify-center mt-6 md:w-auto md:mt-0 md:ml-6"
+              class="bg-white border border-gray-800 text-black rounded-md px-6 py-4 font-inter text-base flex flex-row w-full max-w-[400px] items-center justify-center mt-6 md:w-auto md:mt-0 md:ml-6"
             >
               <p>Explore Components</p>
 
@@ -1825,7 +1826,7 @@
 
         <!-- PLACEHOLDER IMAGE -->
         <div
-          class="w-full h-full mx-auto mt-16 max-w-[700px] lg:max-w-[850px] 2xl:max-w-[1095px]"
+          class="w-full h-full mx-auto mt-16 px-5 max-w-[700px] lg:px-0 lg:max-w-[850px] 2xl:max-w-[1095px]"
         >
           <svg
             class="w-full h-full"
@@ -1886,7 +1887,7 @@
                 <a
                   x-on:click.prevent="menuOne = !menuOne"
                   href="#"
-                  class="lg:hover:bg-gray-50 rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
+                  class="lg:hover:bg-gray-50 rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 flex flex-row"
                   x-bind:class="menuOne ? 'text-gray-800 lg:border lg:border-gray-600 lg:bg-gray-50' : 'text-black lg:border lg:border-white' "
                   >Component
                   <svg
@@ -1903,13 +1904,13 @@
 
                 <!-- DROP DOWN MENU ONE -->
                 <div
-                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-lg py-5 lg:w-[800px] xl:w-[950px]"
+                  class="w-full flex flex-col bg-white z-50 lg:flex-row lg:flex-wrap lg:absolute lg:top-20 px-5 lg:px-75 lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] rounded-md py-5 lg:w-[800px] xl:w-[950px]"
                   x-show="menuOne"
                   x-on:click.outside="menuOne = false"
                 >
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -2002,7 +2003,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -2079,7 +2080,7 @@
 
                   <!-- ITEM -->
                   <a
-                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-lg lg:basis-[248px] grow"
+                    class="flex flex-col hover:bg-gray-50 px-5 py-5 xl:px-8 rounded-md lg:basis-[248px] grow"
                     href="#"
                   >
                     <!-- ICON -->
@@ -2129,17 +2130,17 @@
 
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Templates</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Pricing</a
               >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800 pb-8 lg:pb-0"
                 >FAQs</a
               >
             </div>
@@ -2151,11 +2152,11 @@
             >
               <a
                 href="#"
-                class="lg:hover:bg-gray-50 font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:text-gray-800"
+                class="lg:hover:bg-gray-50 font-inter rounded-md lg:px-6 lg:py-4 lg:hover:text-gray-800"
                 >Sign Up</a
               >
               <a
-                class="px-8 py-4 font-inter text-center bg-black text-white rounded-lg hover:bg-gray-800"
+                class="px-8 py-4 font-inter text-center bg-black text-white rounded-md hover:bg-gray-800"
                 href="#"
                 >Login</a
               >
@@ -2201,7 +2202,7 @@
         </nav>
 
         <header
-          class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-10 lg:px-10 lg:flex-row-reverse lg:lg:items-start lg:justify-between xl:px-20"
+          class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-14 lg:px-10 lg:flex-row-reverse lg:lg:items-start lg:justify-between xl:px-20"
         >
           <!-- TEXT SECTION -->
           <div class="max-w-[556px] lg:ml-12">
@@ -2223,10 +2224,10 @@
             <form
               action=""
               id="hero-form"
-              class="flex flex-row flex-wrap justify-center items-center mt-12 inter text-base rounded-lg relative max-w-[400px] md:max-w-[450px] mx-auto lg:mx-0"
+              class="flex flex-row flex-wrap justify-center items-center mt-12 inter text-base rounded-md relative max-w-[400px] md:max-w-[450px] mx-auto lg:mx-0"
             >
               <input
-                class="px-6 py-4 border font-inter text-base text-center md:text-left border-gray-800 w-full rounded-lg"
+                class="px-6 py-4 border font-inter text-base text-center md:text-left border-gray-800 w-full rounded-md"
                 type="email"
                 placeholder="Enter your email"
                 id="email"
@@ -2234,7 +2235,7 @@
 
               <button
                 type="submit"
-                class="px-6 py-4 mt-6 font-inter text-base right-0 top-0 text-white border border-gray-800 bg-black w-full rounded-lg max-w-[400px] md:mt-0 md:ml-6 md:w-auto md:absolute md:py-3 md:right-1 md:top-1 hover:bg-gray-800 hover:border-gray-400"
+                class="px-6 py-4 mt-6 font-inter text-base right-0 top-0 text-white border border-gray-800 bg-black w-full rounded-md max-w-[400px] md:mt-0 md:ml-6 md:w-auto md:absolute md:py-3 md:right-1 md:top-1 hover:bg-gray-800 hover:border-gray-400"
               >
                 Subscribe
               </button>
