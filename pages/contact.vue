@@ -4,21 +4,18 @@
     <section class="py-20 px-6">
       <!-- CONTACT DIV -->
       <div
-        class="flex flex-col items-center justify-center max-w-[1186px] bg-[#F7F8FD] rounded-2xl rounded-b-[60px] py-20 px-10 mx-auto"
+        class="flex flex-col items-center justify-center max-w-[1186px] bg-gray-50 rounded-[6px] py-20 px-10 mx-auto"
       >
         <p
-          class="font-sm font-inter text-transparent bg-clip-text bg-gradient-to-r from-[#936EFF] to-[#0BC4FF] text-center mb-4 lg:text-base lg:font-medium lg:mb-3"
+          class="font-sm font-inter text-center mb-4 lg:text-base lg:font-medium lg:mb-3"
         >
           CONTACT US
         </p>
 
         <h1
-          class="text-4xl text-center md:text-[52px] font-bold leading-[55px] md:leading-[72px] text-[#160042] max-w-[500px] md:font-black"
+          class="text-4xl text-center md:text-[52px] font-bold leading-[55px] md:leading-[72px] text-black max-w-[500px] md:font-black"
         >
-          <span
-            class="relative text-transparent bg-clip-text bg-gradient-to-r from-[#936EFF] to-[#0BC4FF]"
-            >Contact
-          </span>
+          <span class="relative">Contact </span>
           sales
         </h1>
 
@@ -39,7 +36,7 @@
               <input
                 name="first"
                 type="text"
-                class="w-full py-4 px-6 mb-6 mt-4 rounded-full font-inter border border-[#E4E4E7] border-solid"
+                class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
               />
             </div>
 
@@ -50,7 +47,7 @@
               <input
                 name="last"
                 type="text"
-                class="w-full py-4 px-6 mb-6 mt-4 rounded-full font-inter border border-[#E4E4E7] border-solid"
+                class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
               />
             </div>
           </div>
@@ -61,7 +58,7 @@
           <input
             name="website"
             type="text"
-            class="w-full py-4 px-6 mb-6 mt-4 rounded-full font-inter border border-[#E4E4E7] border-solid"
+            class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
           />
 
           <label for="email" class="text-sm text-gray-500 font-inter"
@@ -70,7 +67,7 @@
           <input
             name="email"
             type="email"
-            class="w-full py-4 px-6 mb-6 mt-4 rounded-full font-inter border border-[#E4E4E7] border-solid"
+            class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
           />
 
           <label for="message" class="text-sm text-gray-500 font-inter"
@@ -81,20 +78,20 @@
             id="message"
             cols="30"
             rows="10"
-            class="w-full py-4 px-6 mb-6 mt-4 rounded-2xl font-inter border border-[#E4E4E7] border-solid"
+            class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
           ></textarea>
 
           <div class="flex flex-row items-center relative left-2">
-            <input type="checkbox" class="w-4 h-4 rounded-full" />
+            <input type="checkbox" class="w-4 h-4 rounded-[6px]" />
             <span class="text-gray-400 font-inter text-sm ml-2"
               >I agree with the
-              <a href="" class="text-[#642EFF]"> Terms & Conditions</a></span
+              <a href="" class="text-black"> Terms & Conditions</a></span
             >
           </div>
 
           <button
             type="submit"
-            class="mt-12 mb-6 w-full px-6 py-4 font-inter text-base text-white bg-[#160042] rounded-full"
+            class="mt-12 mb-6 w-full px-6 py-4 font-inter text-base text-white bg-black rounded-[6px]"
           >
             Submit
           </button>
@@ -112,13 +109,10 @@
           class="w-full lg:basis-[45%] flex flex-col items-center lg:items-start mb-20 lg:mb-0 lg:mr-12"
         >
           <h1
-            class="text-4xl text-center md:text-[46px] font-black leading-[55px] md:leading-[60px] text-[#160042] max-w-[500px] lg:text-left"
+            class="text-4xl text-center md:text-[46px] font-black leading-[55px] md:leading-[60px] text-black max-w-[500px] lg:text-left"
           >
             It's time to build
-            <span
-              class="relative text-transparent bg-clip-text bg-gradient-to-r from-[#936EFF] to-[#0BC4FF]"
-              >something exciting!
-            </span>
+            <span class="relative">something exciting! </span>
           </h1>
 
           <div
@@ -222,10 +216,10 @@
 
         <!-- RIGHT CONTAINER -->
         <div
-          class="lg:basis-[55%] grow flex flex-col items-center justify-center bg-[#F7F8FD] rounded-2xl rounded-b-[60px] mx-auto w-full py-10 lg:px-12"
+          class="lg:basis-[55%] grow flex flex-col items-center justify-center bg-gray-50 rounded-[6px] mx-auto w-full py-10 lg:px-12"
         >
           <h1
-            class="text-4xl text-center md:text-[40px] font-bold leading-[55px] md:leading-[60px] text-[#160042] max-w-[500px] md:font-black"
+            class="text-4xl text-center md:text-[40px] font-bold leading-[55px] md:leading-[60px] text-black max-w-[500px] md:font-black"
           >
             Get a free quote
           </h1>
@@ -245,7 +239,7 @@
               name="full"
               type="text"
               placeholder="Enter your full name"
-              class="w-full py-4 px-6 mb-6 mt-4 rounded-full font-inter border border-[#E4E4E7] border-solid font-light"
+              class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid font-light"
             />
 
             <label for="email" class="text-sm text-gray-500 font-inter"
@@ -255,7 +249,7 @@
               name="email"
               placeholder="Enter your email address"
               type="email"
-              class="w-full py-4 px-6 mb-6 mt-4 rounded-full font-inter border border-[#E4E4E7] border-solid font-light"
+              class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid font-light"
             />
 
             <label for="message" class="text-sm text-gray-500 font-inter"
@@ -267,201 +261,12 @@
               id="message"
               cols="30"
               rows="5"
-              class="w-full py-4 px-6 mb-6 mt-4 rounded-2xl font-inter border border-[#E4E4E7] border-solid font-light"
+              class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid font-light"
             ></textarea>
 
             <button
               type="submit"
-              class="mt-8 mb-6 w-full px-6 py-4 font-inter text-base text-white bg-[#160042] rounded-full"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact 2 Col with Testimonial - Dark -->
-    <section class="py-20 px-6">
-      <div
-        class="flex flex-col relative lg:flex-row lg:w-screen max-w-[1246px] mx-auto lg:px-12 py-20 px-6"
-      >
-        <img
-          class="absolute top-0 left-0 object-cover -z-10 h-full w-full rounded-2xl rounded-b-[60px]"
-          src="https://firebasestorage.googleapis.com/v0/b/tailwindfolio.appspot.com/o/templates%2Fassets%2Ffeautres-bg.jpg?alt=media&token=90aadfea-85b2-4444-b541-facbd86c8719"
-          alt=""
-        />
-
-        <!-- LEFT CONTAINER -->
-        <div
-          class="w-full lg:basis-[45%] flex flex-col items-center lg:items-start mb-20 lg:mb-0 lg:mr-12"
-        >
-          <h1
-            class="text-4xl text-center md:text-[46px] font-black leading-[55px] md:leading-[60px] text-white max-w-[500px] lg:text-left"
-          >
-            It's time to build
-            <span
-              class="relative text-transparent bg-clip-text bg-gradient-to-r from-[#936EFF] to-[#0BC4FF]"
-              >something exciting!
-            </span>
-          </h1>
-
-          <div
-            class="max-w-[650px] flex flex-col items-center justify-center lg:items-start"
-          >
-            <!-- STARS -->
-            <div class="flex flex-row mb-0 mt-10">
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.633 2.59927L11.8767 5.15579C12.0471 5.50669 12.5025 5.85542 12.8887 5.91957L15.1861 6.33147C16.6573 6.59199 16.984 7.66285 15.9186 8.71074L14.1041 10.4855C13.8011 10.7829 13.6211 11.3713 13.7148 11.7865L14.2013 14.0134C14.5836 15.7714 13.6462 16.4427 12.1096 15.5084L9.96304 14.2032C9.57214 13.9646 8.93147 13.9628 8.54073 14.1871L6.36664 15.438C4.81037 16.332 3.88608 15.6413 4.30886 13.8939L4.84887 11.6827C4.94972 11.2694 4.79092 10.6769 4.49345 10.3739L2.70864 8.55611C1.66743 7.48731 2.01826 6.42472 3.49237 6.19551L5.794 5.83926C6.18261 5.77594 6.64634 5.44706 6.82146 5.09689L8.12379 2.56465C8.83459 1.2008 9.96171 1.21573 10.633 2.59927Z"
-                  fill="#F6AD1B"
-                />
-              </svg>
-
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.633 2.59927L11.8767 5.15579C12.0471 5.50669 12.5025 5.85542 12.8887 5.91957L15.1861 6.33147C16.6573 6.59199 16.984 7.66285 15.9186 8.71074L14.1041 10.4855C13.8011 10.7829 13.6211 11.3713 13.7148 11.7865L14.2013 14.0134C14.5836 15.7714 13.6462 16.4427 12.1096 15.5084L9.96304 14.2032C9.57214 13.9646 8.93147 13.9628 8.54073 14.1871L6.36664 15.438C4.81037 16.332 3.88608 15.6413 4.30886 13.8939L4.84887 11.6827C4.94972 11.2694 4.79092 10.6769 4.49345 10.3739L2.70864 8.55611C1.66743 7.48731 2.01826 6.42472 3.49237 6.19551L5.794 5.83926C6.18261 5.77594 6.64634 5.44706 6.82146 5.09689L8.12379 2.56465C8.83459 1.2008 9.96171 1.21573 10.633 2.59927Z"
-                  fill="#F6AD1B"
-                />
-              </svg>
-
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.633 2.59927L11.8767 5.15579C12.0471 5.50669 12.5025 5.85542 12.8887 5.91957L15.1861 6.33147C16.6573 6.59199 16.984 7.66285 15.9186 8.71074L14.1041 10.4855C13.8011 10.7829 13.6211 11.3713 13.7148 11.7865L14.2013 14.0134C14.5836 15.7714 13.6462 16.4427 12.1096 15.5084L9.96304 14.2032C9.57214 13.9646 8.93147 13.9628 8.54073 14.1871L6.36664 15.438C4.81037 16.332 3.88608 15.6413 4.30886 13.8939L4.84887 11.6827C4.94972 11.2694 4.79092 10.6769 4.49345 10.3739L2.70864 8.55611C1.66743 7.48731 2.01826 6.42472 3.49237 6.19551L5.794 5.83926C6.18261 5.77594 6.64634 5.44706 6.82146 5.09689L8.12379 2.56465C8.83459 1.2008 9.96171 1.21573 10.633 2.59927Z"
-                  fill="#F6AD1B"
-                />
-              </svg>
-
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.633 2.59927L11.8767 5.15579C12.0471 5.50669 12.5025 5.85542 12.8887 5.91957L15.1861 6.33147C16.6573 6.59199 16.984 7.66285 15.9186 8.71074L14.1041 10.4855C13.8011 10.7829 13.6211 11.3713 13.7148 11.7865L14.2013 14.0134C14.5836 15.7714 13.6462 16.4427 12.1096 15.5084L9.96304 14.2032C9.57214 13.9646 8.93147 13.9628 8.54073 14.1871L6.36664 15.438C4.81037 16.332 3.88608 15.6413 4.30886 13.8939L4.84887 11.6827C4.94972 11.2694 4.79092 10.6769 4.49345 10.3739L2.70864 8.55611C1.66743 7.48731 2.01826 6.42472 3.49237 6.19551L5.794 5.83926C6.18261 5.77594 6.64634 5.44706 6.82146 5.09689L8.12379 2.56465C8.83459 1.2008 9.96171 1.21573 10.633 2.59927Z"
-                  fill="#F6AD1B"
-                />
-              </svg>
-
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 18 18"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.633 2.59927L11.8767 5.15579C12.0471 5.50669 12.5025 5.85542 12.8887 5.91957L15.1861 6.33147C16.6573 6.59199 16.984 7.66285 15.9186 8.71074L14.1041 10.4855C13.8011 10.7829 13.6211 11.3713 13.7148 11.7865L14.2013 14.0134C14.5836 15.7714 13.6462 16.4427 12.1096 15.5084L9.96304 14.2032C9.57214 13.9646 8.93147 13.9628 8.54073 14.1871L6.36664 15.438C4.81037 16.332 3.88608 15.6413 4.30886 13.8939L4.84887 11.6827C4.94972 11.2694 4.79092 10.6769 4.49345 10.3739L2.70864 8.55611C1.66743 7.48731 2.01826 6.42472 3.49237 6.19551L5.794 5.83926C6.18261 5.77594 6.64634 5.44706 6.82146 5.09689L8.12379 2.56465C8.83459 1.2008 9.96171 1.21573 10.633 2.59927Z"
-                  fill="#F6AD1B"
-                />
-              </svg>
-            </div>
-
-            <p
-              class="font-inter text-base font-light text-center lg:text-left px-5 lg:px-0 leading-[30px] mt-4 text-gray-300 max-w-[600px] lg:max-w-[400px] lg:mx-0"
-            >
-              "Devjoy has helped reduced my development and design time
-              massively. All I have to do is find the component I want and then
-              copy and paste the code"
-            </p>
-
-            <div
-              class="flex flex-col flex-wrap items-center lg:items-start mt-10"
-            >
-              <div class="flex flex-row items-center">
-                <img
-                  class="w-[60px] h-[60px]"
-                  src="https://firebasestorage.googleapis.com/v0/b/tailwindfolio.appspot.com/o/templates%2Fassets%2Fsign-in-profile.png?alt=media&token=3bcf9a27-21bf-4736-b8d1-f435cbf6553b"
-                  alt=""
-                />
-                <div class="flex flex-col ml-4">
-                  <h2 class="font-bold text-xl mb-1 text-white">Laila Bahar</h2>
-                  <p class="font-light text-base font-inter text-gray-300">
-                    Designer
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- RIGHT CONTAINER -->
-        <div
-          class="lg:basis-[55%] relative grow flex flex-col items-center justify-center rounded-2xl rounded-b-[60px] mx-auto w-full py-10 lg:px-12"
-        >
-          <div
-            class="bg-gradient-to-r rounded-b-[50px] from-[#030244] to-[#02005A] -z-10 opacity-60 rounded-2xl absolute inset-0"
-          ></div>
-
-          <h1
-            class="text-4xl text-center md:text-[40px] font-bold leading-[55px] md:leading-[60px] text-white max-w-[500px] md:font-black"
-          >
-            Get a free quote
-          </h1>
-
-          <p
-            class="text-gray-300 text-base mt-4 mb-12 font-light font-inter max-w-[450px] text-center leading-[28px]"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-            purus sit amet luctus venenatis
-          </p>
-
-          <form action="" class="w-full max-w-[578px]">
-            <label for="full" class="text-sm text-gray-300 font-inter"
-              >Full Name</label
-            >
-            <input
-              name="full"
-              type="text"
-              placeholder="Enter your full name"
-              class="w-full py-4 px-6 mb-6 mt-4 rounded-full font-inter font-light bg-[#030244] text-gray-300"
-            />
-
-            <label for="email" class="text-sm text-gray-300 font-inter"
-              >Email</label
-            >
-            <input
-              name="email"
-              placeholder="Enter your email address"
-              type="email"
-              class="w-full py-4 px-6 mb-6 mt-4 rounded-full font-inter font-light bg-[#030244] text-gray-300"
-            />
-
-            <label for="message" class="text-sm text-gray-300 font-inter"
-              >Message</label
-            >
-            <textarea
-              placeholder="Tell us more about your project"
-              name="message"
-              id="message"
-              cols="30"
-              rows="5"
-              class="w-full py-4 px-6 mb-6 mt-4 rounded-2xl font-inter font-light bg-[#030244] text-gray-300"
-            ></textarea>
-
-            <button
-              type="submit"
-              class="mt-8 mb-6 w-full px-6 py-4 font-inter text-base text-white bg-gradient-to-br from-[#8A74FF] to-[#0BC4FF] rounded-full"
+              class="mt-8 mb-6 w-full px-6 py-4 font-inter text-base text-white bg-black rounded-[6px]"
             >
               Submit
             </button>
