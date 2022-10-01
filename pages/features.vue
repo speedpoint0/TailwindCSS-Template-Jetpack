@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Features - Large Hero -->
-    <section class="pb-12 pt-12">
+    <section class="py-12">
       <div class="w-screen relative">
         <!-- TEXT DIV -->
         <div
@@ -69,7 +69,7 @@
     </section>
 
     <!-- Features Grid Layout - 3x2 -->
-    <section class="pb-12 pt-12">
+    <section class="py-12">
       <div
         class="flex flex-col items-center justify-center w-full max-w-[1186px] mx-auto py-12 px-10 rounded-b-[60px]"
       >
@@ -231,7 +231,7 @@
     </section>
 
     <!-- Features Grid Layout - 3x1 -->
-    <section class="pb-12 pt-12">
+    <section class="py-12">
       <div
         class="flex flex-col items-center justify-center w-full max-w-[1186px] mx-auto py-12 px-10 rounded-b-[60px]"
       >
@@ -326,7 +326,7 @@
     </section>
 
     <!-- Features with Hero -->
-    <section class="pb-12 pt-12">
+    <section class="py-12">
       <div class="w-screen">
         <header
           class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-14 lg:px-10 lg:flex-row lg:justify-between xl:px-20"
@@ -383,7 +383,7 @@
     </section>
 
     <!-- Features with Hero - Reverse -->
-    <section class="pb-12 pt-12">
+    <section class="py-12">
       <div class="w-screen">
         <header
           class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-14 lg:px-10 lg:flex-row-reverse lg:justify-between xl:px-20"
@@ -440,7 +440,7 @@
     </section>
 
     <!-- Features with Hero - Facts -->
-    <section class="pb-12 pt-12">
+    <section class="py-12">
       <div class="w-screen">
         <header
           class="w-full max-w-[1600px] flex flex-col justify-center items-center mx-auto px-6 mt-14 lg:px-10 lg:flex-row-reverse lg:justify-between xl:px-20"
