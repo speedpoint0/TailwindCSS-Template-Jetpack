@@ -1,150 +1,70 @@
 <template>
   <div>
-    <!-- Newsletter Dark -->
-    <section class="py-20 px-6">
+    <!-- Newsletter Standard -->
+    <section class="py-12">
       <div
-        class="max-w-[1186px] relative rounded-[60px] mx-auto flex flex-col bg-justify-center items-center py-20 px-10 lg:py-32 lg:px-20"
+        class="w-[90%] max-w-[1186px] bg-[#E7E7E7] rounded-md mx-auto py-20 px-10"
       >
-        <img
-          class="absolute top-0 left-0 object-cover w-full h-full -z-10 rounded-[60px]"
-          src="https://firebasestorage.googleapis.com/v0/b/tailwindfolio.appspot.com/o/templates%2Fassets%2Fbg-newsletter.jpg?alt=media&token=ae2a4e07-a340-45df-ae4e-50a0a0886827"
-          alt=""
-        />
-
-        <!-- TEXT SECTION -->
-        <div class="max-w-[650px]">
+        <div
+          class="max-w-[650px] flex flex-col justify-center items-center mx-auto"
+        >
           <h1
-            class="text-4xl text-center md:text-5xl font-black leading-[55px] lg:leading-[72px] text-white"
+            class="text-4xl text-center md:text-5xl font-bold leading-[55px] md:leading-[72px] text-black"
           >
-            Join the
-            <span
-              class="relative text-transparent bg-clip-text bg-gradient-to-br from-[#936EFF] to-[#0BC4FF]"
-              >Devjoy Community
-              <span
-                class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl"
-              ></span>
-            </span>
+            Join the Devjoy Community
           </h1>
 
-          <p class="text-gray-200 text-base mt-4 font-inter text-center">
-            Find out how to build better and faster with Devjoy
+          <p
+            class="font-inter font-light text-center px-5 lg:px-0 leading-[30px] mt-4 text-[#71717A] max-w-[600px] lg:max-w-[500px]"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna
           </p>
-        </div>
 
-        <form action="" class="mt-14">
-          <div class="relative">
+          <!-- EMAIL DIV -->
+          <form
+            action=""
+            id="hero-form"
+            class="w-full flex flex-row flex-wrap justify-center items-center mt-12 inter rounded-md relative max-w-[400px] md:max-w-[450px] mx-auto lg:mx-0"
+          >
             <input
+              class="px-6 py-4 border font-inter text-center md:text-left border-gray-800 w-full rounded-md"
               type="email"
-              class="bg-white w-full lg:w-[510px] relative px-6 py-4 font-inter text-base rounded-full text-center lg:text-left"
               placeholder="Enter your email"
+              id="email"
             />
+
             <button
               type="submit"
-              class="relative lg:absolute lg:top-1 lg:right-[6px] mt-5 lg:mt-0 w-full lg:w-auto px-6 py-3 font-inter text-base text-white bg-gradient-to-br from-[#936EFF] to-[#0BC4FF] lg:from-[#160042] lg:to-[#160042] rounded-full"
+              class="px-6 py-4 mt-6 font-inter right-0 top-0 text-white border border-gray-800 bg-black w-full rounded-md max-w-[400px] md:mt-0 md:ml-6 md:w-auto md:absolute md:py-3 md:right-1 md:top-1 hover:bg-gray-800 hover:border-gray-400"
             >
-              Notify me
+              Subscribe
             </button>
-          </div>
-        </form>
-
-        <p
-          class="text-gray-200 text-base mt-6 font-light font-inter text-center"
-        >
-          Join a community of over
-          <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-[#936EFF] to-[#0BC4FF]"
-            >5000+ developers</span
+          </form>
+          <p
+            class="font-inter font-light text-[14px] text-center px-5 lg:px-0 leading-[30px] mt-4 text-[#71717A] max-w-[600px] lg:max-w-[500px]"
           >
-        </p>
-      </div>
-    </section>
-
-    <!-- Newsletter -->
-    <section class="py-20 px-6">
-      <div
-        class="max-w-[1186px] bg-[#F7F8FD] rounded-[60px] mx-auto flex flex-col bg-justify-center items-center py-20 px-10 lg:py-32 lg:px-20"
-      >
-        <!-- TEXT SECTION -->
-        <div class="max-w-[650px]">
-          <h1
-            class="text-4xl text-center md:text-5xl font-black leading-[55px] lg:leading-[72px]"
-          >
-            Join the
-            <span
-              class="relative text-transparent bg-clip-text bg-gradient-to-br from-[#936EFF] to-[#0BC4FF]"
-              >Devjoy Community</span
-            >
-          </h1>
-
-          <p class="text-gray-500 text-base mt-4 font-inter text-center">
-            Find out how to build better and faster with Devjoy
+            No spam, just quality pixels.
           </p>
         </div>
-
-        <form action="" class="mt-14">
-          <div class="relative">
-            <input
-              type="email"
-              class="bg-white w-full lg:w-[510px] relative px-6 py-4 font-inter text-base rounded-full text-center lg:text-left"
-              placeholder="Enter your email"
-            />
-            <button
-              type="submit"
-              class="relative lg:absolute lg:top-1 lg:right-[6px] mt-5 lg:mt-0 w-full lg:w-auto px-6 py-3 font-inter text-base text-white bg-[#160042] rounded-full"
-            >
-              Notify me
-            </button>
-          </div>
-        </form>
-
-        <p
-          class="text-gray-500 text-base mt-6 font-light font-inter text-center"
-        >
-          Join a community of over
-          <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-[#936EFF] to-[#0BC4FF]"
-            >5000+ developers</span
-          >
-        </p>
       </div>
     </section>
 
     <!-- Newsletter 2 Cols -->
     <section class="py-20 px-6">
       <div
-        class="max-w-[1186px] relative rounded-[60px] mx-auto flex flex-col lg:flex-row items-center py-20 px-10 lg:items-start lg:py-32 lg:px-20"
+        class="max-w-[1186px] relative rounded-md bg-[#E7E7E7] mx-auto flex flex-col lg:flex-row items-center justify-center py-12 px-10 lg:items-start lg:py-20 lg:px-20 lg:justify-between"
       >
-        <img
-          class="absolute top-0 left-0 object-cover w-full h-full -z-10 rounded-[60px]"
-          src="https://firebasestorage.googleapis.com/v0/b/tailwindfolio.appspot.com/o/templates%2Fassets%2Ffeautres-bg.jpg?alt=media&token=90aadfea-85b2-4444-b541-facbd86c8719"
-          alt=""
-        />
-
         <!-- TEXT SECTION -->
         <div class="max-w-[650px] lg:mr-10">
           <h1
-            class="text-4xl text-center md:text-5xl font-black leading-[55px] lg:leading-[72px] text-white lg:text-left"
+            class="text-4xl text-center lg:text-3xl font-bold leading-[55px] text-black lg:text-left"
           >
-            Join the
-            <span
-              class="relative text-transparent bg-clip-text bg-gradient-to-br from-[#936EFF] to-[#0BC4FF]"
-              >Devjoy
-              <span
-                class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl"
-              ></span>
-            </span>
-
-            <span
-              class="relative text-transparent bg-clip-text bg-gradient-to-br from-[#936EFF] to-[#0BC4FF]"
-              >Community
-              <span
-                class="absolute inset-0 bg-gradient-to-r from-[#8A74FF] to-[#0BC4FF] opacity-40 blur-xl"
-              ></span>
-            </span>
+            Join the Devjoy Community
           </h1>
 
           <p
-            class="text-gray-200 text-base mt-4 font-inter text-center lg:text-left lg:w-3/4 leading-[30px]"
+            class="text-gray-600 mt-4 font-inter text-center lg:text-left leading-[30px]"
           >
             Find out how to build better and faster with Devjoy
           </p>
@@ -152,30 +72,29 @@
 
         <!-- FORM SECTION -->
         <div>
-          <form action="" class="mt-14">
+          <form action="" class="mt-14 lg:mt-0">
             <div class="relative">
               <input
+                class="px-6 py-4 border font-inter text-center md:text-left border-gray-800 w-full lg:w-[490px] rounded-md"
                 type="email"
-                class="bg-white w-full lg:w-[490px] relative px-6 py-4 font-inter text-base rounded-full text-center lg:text-left"
                 placeholder="Enter your email"
+                id="email"
               />
+
               <button
                 type="submit"
-                class="relative lg:absolute lg:top-1 lg:right-[6px] mt-5 lg:mt-0 w-full lg:w-auto px-6 py-3 font-inter text-base text-white bg-gradient-to-br from-[#936EFF] to-[#0BC4FF] lg:from-[#160042] lg:to-[#160042] rounded-full"
+                class="px-6 py-4 mt-6 font-inter right-0 top-0 text-white border border-gray-800 bg-black w-full rounded-md max-w-[400px] md:mt-0 md:ml-6 md:w-auto md:absolute md:py-3 md:right-1 md:top-1 hover:bg-gray-800 hover:border-gray-400"
               >
-                Notify me
+                Subscribe
               </button>
             </div>
           </form>
 
           <p
-            class="text-gray-200 text-base mt-6 font-light font-inter text-center lg:text-right"
+            class="text-gray-800 mt-6 font-light font-inter text-center lg:text-right"
           >
             Join a community of over
-            <span
-              class="text-transparent bg-clip-text bg-gradient-to-r from-[#936EFF] to-[#0BC4FF]"
-              >5000+ developers</span
-            >
+            <span class="font-bold underline">5000+ developers</span>
           </p>
         </div>
       </div>

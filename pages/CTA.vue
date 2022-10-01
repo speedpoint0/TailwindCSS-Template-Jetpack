@@ -3,7 +3,7 @@
     <!-- CTA Standard -->
     <section class="py-12">
       <div
-        class="w-[90%] max-w-[1186px] bg-gray-50 rounded-md mx-auto flex flex-col justify-center items-center py-20 px-10"
+        class="w-[90%] max-w-[1186px] bg-[#E7E7E7] rounded-md mx-auto flex flex-col justify-center items-center py-20 px-10"
       >
         <div class="flex flex-col items-center justify-center">
           <div class="max-w-[650px]">
@@ -82,7 +82,7 @@
     <!-- CTA Email -->
     <section class="py-12">
       <div
-        class="w-[90%] max-w-[1186px] bg-gray-50 rounded-md mx-auto py-20 px-10"
+        class="w-[90%] max-w-[1186px] bg-[#E7E7E7] rounded-md mx-auto py-20 px-10"
       >
         <div
           class="max-w-[650px] flex flex-col justify-center items-center mx-auto"
@@ -90,7 +90,7 @@
           <h1
             class="text-4xl text-center md:text-5xl font-bold leading-[55px] md:leading-[72px] text-black"
           >
-            Join Devjoy community
+            Join the Devjoy Community
           </h1>
 
           <p
