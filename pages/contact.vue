@@ -4,29 +4,27 @@
     <section class="py-20 px-6">
       <!-- CONTACT DIV -->
       <div
-        class="flex flex-col items-center justify-center max-w-[1186px] bg-gray-50 rounded-[6px] py-20 px-10 mx-auto"
+        class="flex flex-col items-center justify-center max-w-[1186px] bg-[#F2F2F2] rounded-md py-20 px-10 mx-auto"
       >
-        <p
-          class="font-sm font-inter text-center mb-4 lg:text-base lg:font-medium lg:mb-3"
+        <!-- TEXT DIV -->
+        <div
+          class="max-w-[550px] lg:max-w-[800px] flex flex-col items-center justify-center px-6 lg:px-10 mx-auto text-center"
         >
-          CONTACT US
-        </p>
+          <h1
+            class="text-black text-center font-bold text-[32px] leading-[45px] lg:text-[40px] lg:leading-[52px] mx-auto"
+          >
+            Contact Sales
+          </h1>
 
-        <h1
-          class="text-4xl text-center md:text-[52px] font-bold leading-[55px] md:leading-[72px] text-black max-w-[500px] md:font-black"
-        >
-          <span class="relative">Contact </span>
-          sales
-        </h1>
+          <p
+            class="font-inter text-base font-light text-center px-5 lg:px-0 leading-[30px] mt-4 text-[#71717A] max-w-[600px] lg:max-w-[500px]"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna
+          </p>
+        </div>
 
-        <p
-          class="text-gray-500 text-base mt-4 mb-12 font-light font-inter max-w-[450px] text-center leading-[28px]"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-          purus sit amet luctus venenatis
-        </p>
-
-        <form action="" class="w-full max-w-[578px]">
+        <form action="" class="w-full max-w-[578px] mt-10">
           <!-- FIRST & LAST INPUTS  -->
           <div class="flex flex-col lg:flex-row">
             <div class="mr-3">
@@ -36,7 +34,7 @@
               <input
                 name="first"
                 type="text"
-                class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
+                class="w-full py-4 px-6 mb-6 mt-4 rounded-md font-inter border border-[#E4E4E7] border-solid"
               />
             </div>
 
@@ -47,7 +45,7 @@
               <input
                 name="last"
                 type="text"
-                class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
+                class="w-full py-4 px-6 mb-6 mt-4 rounded-md font-inter border border-[#E4E4E7] border-solid"
               />
             </div>
           </div>
@@ -58,7 +56,7 @@
           <input
             name="website"
             type="text"
-            class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
+            class="w-full py-4 px-6 mb-6 mt-4 rounded-md font-inter border border-[#E4E4E7] border-solid"
           />
 
           <label for="email" class="text-sm text-gray-500 font-inter"
@@ -67,7 +65,7 @@
           <input
             name="email"
             type="email"
-            class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
+            class="w-full py-4 px-6 mb-6 mt-4 rounded-md font-inter border border-[#E4E4E7] border-solid"
           />
 
           <label for="message" class="text-sm text-gray-500 font-inter"
@@ -78,11 +76,11 @@
             id="message"
             cols="30"
             rows="10"
-            class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid"
+            class="w-full py-4 px-6 mb-6 mt-4 rounded-md font-inter border border-[#E4E4E7] border-solid"
           ></textarea>
 
           <div class="flex flex-row items-center relative left-2">
-            <input type="checkbox" class="w-4 h-4 rounded-[6px]" />
+            <input type="checkbox" class="w-4 h-4 rounded-md" />
             <span class="text-gray-400 font-inter text-sm ml-2"
               >I agree with the
               <a href="" class="text-black"> Terms & Conditions</a></span
@@ -91,7 +89,7 @@
 
           <button
             type="submit"
-            class="mt-12 mb-6 w-full px-6 py-4 font-inter text-base text-white bg-black rounded-[6px]"
+            class="mt-12 mb-6 w-full px-6 py-4 font-inter text-base text-white bg-black rounded-md"
           >
             Submit
           </button>
@@ -200,7 +198,7 @@
               <div class="flex flex-row items-center">
                 <img
                   class="w-[60px] h-[60px]"
-                  src="https://firebasestorage.googleapis.com/v0/b/tailwindfolio.appspot.com/o/templates%2Fassets%2Fsign-in-profile.png?alt=media&token=3bcf9a27-21bf-4736-b8d1-f435cbf6553b"
+                  src="https://firebasestorage.googleapis.com/v0/b/tailwindfolio.appspot.com/o/templates%2Fassets%2FEllipse%205%20(2).svg?alt=media&token=e3cbbdd8-1b27-403b-bc5e-541298849b74"
                   alt=""
                 />
                 <div class="flex flex-col ml-4">
@@ -216,7 +214,7 @@
 
         <!-- RIGHT CONTAINER -->
         <div
-          class="lg:basis-[55%] grow flex flex-col items-center justify-center bg-gray-50 rounded-[6px] mx-auto w-full py-10 lg:px-12"
+          class="lg:basis-[55%] grow flex flex-col items-center justify-center bg-[#F2F2F2] rounded-md mx-auto w-full py-10 lg:px-12"
         >
           <h1
             class="text-4xl text-center md:text-[40px] font-bold leading-[55px] md:leading-[60px] text-black max-w-[500px] md:font-black"
@@ -239,7 +237,7 @@
               name="full"
               type="text"
               placeholder="Enter your full name"
-              class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid font-light"
+              class="w-full py-4 px-6 mb-6 mt-4 rounded-md font-inter border border-[#E4E4E7] border-solid font-light"
             />
 
             <label for="email" class="text-sm text-gray-500 font-inter"
@@ -249,7 +247,7 @@
               name="email"
               placeholder="Enter your email address"
               type="email"
-              class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid font-light"
+              class="w-full py-4 px-6 mb-6 mt-4 rounded-md font-inter border border-[#E4E4E7] border-solid font-light"
             />
 
             <label for="message" class="text-sm text-gray-500 font-inter"
@@ -261,12 +259,12 @@
               id="message"
               cols="30"
               rows="5"
-              class="w-full py-4 px-6 mb-6 mt-4 rounded-[6px] font-inter border border-[#E4E4E7] border-solid font-light"
+              class="w-full py-4 px-6 mb-6 mt-4 rounded-md font-inter border border-[#E4E4E7] border-solid font-light"
             ></textarea>
 
             <button
               type="submit"
-              class="mt-8 mb-6 w-full px-6 py-4 font-inter text-base text-white bg-black rounded-[6px]"
+              class="mt-8 mb-6 w-full px-6 py-4 font-inter text-base text-white bg-black rounded-md"
             >
               Submit
             </button>
