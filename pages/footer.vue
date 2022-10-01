@@ -3,7 +3,7 @@
     <!-- Footer Simple -->
     <section>
       <div
-        class="w-screen bg-[#F7F8FD] flex flex-col items-center justify-items-center py-32"
+        class="w-screen bg-[#F2F2F2] flex flex-col items-center justify-items-center py-32"
       >
         <!-- LOGO -->
         <svg
@@ -15,38 +15,20 @@
         >
           <path
             d="M15.2084 47C24.5811 47 31.0358 40.4126 31.0358 30.9074C31.0358 21.2695 24.4484 14.6821 14.8989 14.6821H3.58105V47H15.2084ZM14.3684 19.8989C21.0442 19.8989 25.0674 24.0547 25.0674 30.9074C25.0674 37.6274 21.1326 41.7832 14.6779 41.7832H9.24V19.8989H14.3684ZM45.2819 47.5747C50.9851 47.5747 54.964 44.7011 55.8925 39.9263H50.8967C50.2777 42.0042 48.3325 43.1537 45.3704 43.1537C41.7893 43.1537 39.7556 41.2084 39.3577 37.3621L55.804 37.3179V35.6821C55.804 28.8737 51.6483 24.4968 45.1051 24.4968C38.6946 24.4968 34.2293 29.2274 34.2293 36.08C34.2293 42.8442 38.783 47.5747 45.2819 47.5747ZM45.1493 28.9179C48.3767 28.9179 50.4546 30.9074 50.4546 33.9137H39.4904C40.0209 30.6421 41.9662 28.9179 45.1493 28.9179ZM65.3604 47H70.6657L79.7731 25.16H74.2025L70.2236 35.1958C69.2952 37.5832 68.4994 39.8821 68.1899 41.2526C67.9246 40.0589 67.1731 37.8042 66.2446 35.1958L62.4425 25.16H56.6952L65.3604 47ZM85.5705 20.7832C87.3389 20.7832 88.8421 19.3242 88.8421 17.5116C88.8421 15.6989 87.3389 14.2842 85.5705 14.2842C83.7579 14.2842 82.2989 15.6989 82.2989 17.5116C82.2989 19.3242 83.7579 20.7832 85.5705 20.7832ZM77.6568 57.2568C79.0716 57.6547 79.8673 57.7432 80.8842 57.7432C85.6147 57.7432 88.2673 54.7368 88.2673 50.0947V25.16H82.8737V49.4758C82.8737 51.6863 82.2547 52.7474 80.3979 52.7474C79.7347 52.7474 79.2926 52.7032 78.541 52.4821L77.6568 57.2568ZM92.5578 36.0358C92.5578 42.8442 97.4652 47.5305 104.229 47.5305C110.994 47.5305 115.901 42.8442 115.901 36.0358C115.901 29.2274 110.994 24.5411 104.229 24.5411C97.4652 24.5411 92.5578 29.2274 92.5578 36.0358ZM97.9515 36.0358C97.9515 32.0568 100.516 29.36 104.229 29.36C107.943 29.36 110.507 32.0568 110.507 36.0358C110.507 40.0147 107.943 42.7116 104.229 42.7116C100.516 42.7116 97.9515 40.0147 97.9515 36.0358ZM117.455 57.1242C118.649 57.4337 119.975 57.6105 121.478 57.6105C125.059 57.6105 127.358 55.9305 128.994 51.8632L139.693 25.16H134.122L128.198 41.0758L122.583 25.16H116.88L125.678 47.9284L125.059 49.5642C124.131 52.1284 122.804 52.6147 120.682 52.6147H117.455V57.1242Z"
-            fill="#160042"
+            fill="black"
           />
-          <circle
-            cx="84.7373"
-            cy="15.7368"
-            r="5.52632"
-            fill="url(#paint0_linear_559_6318)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_559_6318"
-              x1="79.8442"
-              y1="11.1891"
-              x2="90.2636"
-              y2="21.2631"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#936EFF" />
-              <stop offset="1" stop-color="#0BC4FF" />
-            </linearGradient>
-          </defs>
+          <circle cx="84.7373" cy="15.7368" r="5.52632" fill="black" />
         </svg>
 
         <!-- FOOTER LINKS -->
         <div
           class="space-y-6 lg:space-y-0 lg:space-x-20 flex flex-col items-center justify-center mt-16 lg:flex-row"
         >
-          <a href="" class="text-gray-500 text-xl">Components</a>
-          <a href="" class="text-gray-500 text-xl">Templates</a>
-          <a href="" class="text-gray-500 text-xl">Pricing</a>
-          <a href="" class="text-gray-500 text-xl">FAQs</a>
-          <a href="" class="text-gray-500 text-xl">Contact</a>
+          <a href="" class="text-gray-500 text-lg">Components</a>
+          <a href="" class="text-gray-500 text-lg">Templates</a>
+          <a href="" class="text-gray-500 text-lg">Pricing</a>
+          <a href="" class="text-gray-500 text-lg">FAQs</a>
+          <a href="" class="text-gray-500 text-lg">Contact</a>
         </div>
 
         <!-- DIVIDER -->
@@ -54,7 +36,7 @@
 
         <!-- SOCIAL MEDIA ICONS -->
         <div class="flex flex-row">
-          <a href="" class="mx-4 hover:text-gray-400 text-[#642EFF] transition">
+          <a href="" class="mx-4 hover:text-gray-400 text-black transition">
             <svg
               class="fill-current"
               width="24"
@@ -68,7 +50,7 @@
             </svg>
           </a>
 
-          <a href="" class="mx-4 hover:text-gray-400 text-[#642EFF] transition">
+          <a href="" class="mx-4 hover:text-gray-400 text-black transition">
             <svg
               class="fill-current"
               width="24"
@@ -85,7 +67,7 @@
             </svg>
           </a>
 
-          <a href="" class="mx-4 hover:text-gray-400 text-[#642EFF] transition">
+          <a href="" class="mx-4 hover:text-gray-400 text-black transition">
             <svg
               class="fill-current"
               width="25"
@@ -99,7 +81,7 @@
             </svg>
           </a>
 
-          <a href="" class="mx-4 hover:text-gray-400 text-[#642EFF] transition">
+          <a href="" class="mx-4 hover:text-gray-400 text-black transition">
             <svg
               class="fill-current"
               width="25"
@@ -122,25 +104,15 @@
 
     <!-- Footer Medium -->
     <section>
-      <div class="w-screen bg-[#F7F8FD] flex flex-col py-32 lg:px-24 px-6">
+      <div class="w-screen bg-[#F2F2F2] flex flex-col py-32 lg:px-24 px-6">
         <!-- TOP DIV -->
         <div class="flex flex-col lg:flex-row items-center lg:justify-between">
           <!-- TEXT CONTAINER -->
           <div class="mb-12 lg:mb-0">
             <h1
-              class="text-5xl text-center lg:text-left md:text-[52px] font-bold leading-[68px] md:leading-[72px] text-[#160042] max-w-[500px] md:font-black"
+              class="text-4xl text-center lg:text-left md:text-[48px] font-bold leading-[68px] md:leading-[72px] text-black max-w-[500px]"
             >
-              Build
-              <span
-                class="relative text-transparent bg-clip-text bg-gradient-to-r from-[#936EFF] to-[#0BC4FF]"
-                >better
-              </span>
-              and
-              <span
-                class="relative text-transparent bg-clip-text bg-gradient-to-r from-[#936EFF] to-[#0BC4FF]"
-                >faster
-              </span>
-              with Devjoy
+              Build better and faster with Devjoy
             </h1>
           </div>
 
@@ -156,33 +128,15 @@
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle
-                  cx="18"
-                  cy="18"
-                  r="18"
-                  fill="url(#paint0_linear_847_8460)"
-                />
+                <circle cx="18" cy="18" r="18" fill="black" />
                 <path
                   d="M26.6211 14.45C25.5711 9.83 21.5411 7.75 18.0011 7.75C18.0011 7.75 18.0011 7.75 17.9911 7.75C14.4611 7.75 10.4211 9.82 9.37107 14.44C8.20107 19.6 11.3611 23.97 14.2211 26.72C15.2811 27.74 16.6411 28.25 18.0011 28.25C19.3611 28.25 20.7211 27.74 21.7711 26.72C24.6311 23.97 27.7911 19.61 26.6211 14.45ZM18.0011 19.46C16.2611 19.46 14.8511 18.05 14.8511 16.31C14.8511 14.57 16.2611 13.16 18.0011 13.16C19.7411 13.16 21.1511 14.57 21.1511 16.31C21.1511 18.05 19.7411 19.46 18.0011 19.46Z"
                   fill="white"
                 />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_847_8460"
-                    x1="8.1"
-                    y1="-6.30002"
-                    x2="63.5433"
-                    y2="7.64775"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#936EFF" />
-                    <stop offset="1" stop-color="#0BC4FF" />
-                  </linearGradient>
-                </defs>
               </svg>
 
               <p
-                class="text-[#160042] ml-4 font-inter leading-[30px] text-center lg:text-left"
+                class="text-black ml-4 font-inter leading-[30px] text-center lg:text-left"
               >
                 8502 Preston Rd. Inglewood, Maine 98380, USA
               </p>
@@ -197,34 +151,14 @@
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle
-                  cx="18"
-                  cy="18"
-                  r="18"
-                  fill="url(#paint0_linear_847_8465)"
-                />
+                <circle cx="18" cy="18" r="18" fill="black" />
                 <path
                   d="M23 9.5H13C10 9.5 8 11 8 14.5V21.5C8 25 10 26.5 13 26.5H23C26 26.5 28 25 28 21.5V14.5C28 11 26 9.5 23 9.5ZM23.47 15.59L20.34 18.09C19.68 18.62 18.84 18.88 18 18.88C17.16 18.88 16.31 18.62 15.66 18.09L12.53 15.59C12.21 15.33 12.16 14.85 12.41 14.53C12.67 14.21 13.14 14.15 13.46 14.41L16.59 16.91C17.35 17.52 18.64 17.52 19.4 16.91L22.53 14.41C22.85 14.15 23.33 14.2 23.58 14.53C23.84 14.85 23.79 15.33 23.47 15.59Z"
                   fill="white"
                 />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_847_8465"
-                    x1="8.1"
-                    y1="-6.30002"
-                    x2="63.5433"
-                    y2="7.64775"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#936EFF" />
-                    <stop offset="1" stop-color="#0BC4FF" />
-                  </linearGradient>
-                </defs>
               </svg>
 
-              <p
-                class="text-[#160042] ml-4 font-inter leading-[30px] text-center"
-              >
+              <p class="text-black ml-4 font-inter leading-[30px] text-center">
                 support@devjoy.xyz
               </p>
             </div>
@@ -244,13 +178,11 @@
           <div
             class="space-y-6 lg:space-y-0 lg:space-x-10 flex flex-col items-center justify-center lg:flex-row"
           >
-            <a href="" class="text-[#160042] text-xl lg:text-base"
-              >Components</a
-            >
-            <a href="" class="text-[#160042] text-xl lg:text-base">Templates</a>
-            <a href="" class="text-[#160042] text-xl lg:text-base">Pricing</a>
-            <a href="" class="text-[#160042] text-xl lg:text-base">FAQs</a>
-            <a href="" class="text-[#160042] text-xl lg:text-base">Contact</a>
+            <a href="" class="text-black text-xl lg:text-base">Components</a>
+            <a href="" class="text-black text-xl lg:text-base">Templates</a>
+            <a href="" class="text-black text-xl lg:text-base">Pricing</a>
+            <a href="" class="text-black text-xl lg:text-base">FAQs</a>
+            <a href="" class="text-black text-xl lg:text-base">Contact</a>
           </div>
 
           <!-- COPYRIGHT TEXT -->
@@ -268,7 +200,7 @@
     <!-- Footer Standard -->
     <section>
       <div
-        class="w-screen bg-[#F7F8FD] flex flex-col py-20 lg: lg:px-10 xl:px-24 px-6"
+        class="w-screen bg-[#F2F2F2] flex flex-col py-20 lg: lg:px-10 xl:px-24 px-6"
       >
         <!-- TOP CONTAINER -->
         <div class="lg:flex lg:flex-row lg:justify-between">
@@ -284,27 +216,9 @@
             >
               <path
                 d="M15.2084 47C24.5811 47 31.0358 40.4126 31.0358 30.9074C31.0358 21.2695 24.4484 14.6821 14.8989 14.6821H3.58105V47H15.2084ZM14.3684 19.8989C21.0442 19.8989 25.0674 24.0547 25.0674 30.9074C25.0674 37.6274 21.1326 41.7832 14.6779 41.7832H9.24V19.8989H14.3684ZM45.2819 47.5747C50.9851 47.5747 54.964 44.7011 55.8925 39.9263H50.8967C50.2777 42.0042 48.3325 43.1537 45.3704 43.1537C41.7893 43.1537 39.7556 41.2084 39.3577 37.3621L55.804 37.3179V35.6821C55.804 28.8737 51.6483 24.4968 45.1051 24.4968C38.6946 24.4968 34.2293 29.2274 34.2293 36.08C34.2293 42.8442 38.783 47.5747 45.2819 47.5747ZM45.1493 28.9179C48.3767 28.9179 50.4546 30.9074 50.4546 33.9137H39.4904C40.0209 30.6421 41.9662 28.9179 45.1493 28.9179ZM65.3604 47H70.6657L79.7731 25.16H74.2025L70.2236 35.1958C69.2952 37.5832 68.4994 39.8821 68.1899 41.2526C67.9246 40.0589 67.1731 37.8042 66.2446 35.1958L62.4425 25.16H56.6952L65.3604 47ZM85.5705 20.7832C87.3389 20.7832 88.8421 19.3242 88.8421 17.5116C88.8421 15.6989 87.3389 14.2842 85.5705 14.2842C83.7579 14.2842 82.2989 15.6989 82.2989 17.5116C82.2989 19.3242 83.7579 20.7832 85.5705 20.7832ZM77.6568 57.2568C79.0716 57.6547 79.8673 57.7432 80.8842 57.7432C85.6147 57.7432 88.2673 54.7368 88.2673 50.0947V25.16H82.8737V49.4758C82.8737 51.6863 82.2547 52.7474 80.3979 52.7474C79.7347 52.7474 79.2926 52.7032 78.541 52.4821L77.6568 57.2568ZM92.5578 36.0358C92.5578 42.8442 97.4652 47.5305 104.229 47.5305C110.994 47.5305 115.901 42.8442 115.901 36.0358C115.901 29.2274 110.994 24.5411 104.229 24.5411C97.4652 24.5411 92.5578 29.2274 92.5578 36.0358ZM97.9515 36.0358C97.9515 32.0568 100.516 29.36 104.229 29.36C107.943 29.36 110.507 32.0568 110.507 36.0358C110.507 40.0147 107.943 42.7116 104.229 42.7116C100.516 42.7116 97.9515 40.0147 97.9515 36.0358ZM117.455 57.1242C118.649 57.4337 119.975 57.6105 121.478 57.6105C125.059 57.6105 127.358 55.9305 128.994 51.8632L139.693 25.16H134.122L128.198 41.0758L122.583 25.16H116.88L125.678 47.9284L125.059 49.5642C124.131 52.1284 122.804 52.6147 120.682 52.6147H117.455V57.1242Z"
-                fill="#160042"
+                fill="black"
               />
-              <circle
-                cx="84.7373"
-                cy="15.7368"
-                r="5.52632"
-                fill="url(#paint0_linear_559_6318)"
-              />
-              <defs>
-                <linearGradient
-                  id="paint0_linear_559_6318"
-                  x1="79.8442"
-                  y1="11.1891"
-                  x2="90.2636"
-                  y2="21.2631"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop stop-color="#936EFF" />
-                  <stop offset="1" stop-color="#0BC4FF" />
-                </linearGradient>
-              </defs>
+              <circle cx="84.7373" cy="15.7368" r="5.52632" fill="black" />
             </svg>
 
             <p
@@ -315,10 +229,7 @@
 
             <!-- SOCIAL MEDIA ICONS -->
             <div class="flex flex-row mt-6 mb-8">
-              <a
-                href=""
-                class="mr-4 hover:text-gray-400 text-[#642EFF] transition"
-              >
+              <a href="" class="mr-4 hover:text-gray-400 text-black transition">
                 <svg
                   class="fill-current"
                   width="24"
@@ -332,10 +243,7 @@
                 </svg>
               </a>
 
-              <a
-                href=""
-                class="mx-4 hover:text-gray-400 text-[#642EFF] transition"
-              >
+              <a href="" class="mx-4 hover:text-gray-400 text-black transition">
                 <svg
                   class="fill-current"
                   width="24"
@@ -352,10 +260,7 @@
                 </svg>
               </a>
 
-              <a
-                href=""
-                class="mx-4 hover:text-gray-400 text-[#642EFF] transition"
-              >
+              <a href="" class="mx-4 hover:text-gray-400 text-black transition">
                 <svg
                   class="fill-current"
                   width="25"
@@ -369,10 +274,7 @@
                 </svg>
               </a>
 
-              <a
-                href=""
-                class="mx-4 hover:text-gray-400 text-[#642EFF] transition"
-              >
+              <a href="" class="mx-4 hover:text-gray-400 text-black transition">
                 <svg
                   class="fill-current"
                   width="25"
@@ -396,7 +298,7 @@
             <div
               class="space-y-5 mr-8 my-5 basis-[100px] grow max-w-[200px] lg:mx-10 flex flex-col lg:my-0"
             >
-              <h2 class="font-inter font-medium text-[#160042]">SOLUTION</h2>
+              <h2 class="font-inter font-medium text-black">SOLUTION</h2>
               <a href="" class="text-gray-500 font-inter font-light"
                 >Marketing</a
               >
@@ -415,7 +317,7 @@
             <div
               class="space-y-5 mr-8 my-5 basis-[100px] grow max-w-[200px] lg:mx-10 flex flex-col lg:my-0"
             >
-              <h2 class="font-inter font-medium text-[#160042]">SUPPORT</h2>
+              <h2 class="font-inter font-medium text-black">SUPPORT</h2>
               <a href="" class="text-gray-500 font-inter font-light">Pricing</a>
               <a href="" class="text-gray-500 font-inter font-light"
                 >Documentation</a
@@ -430,7 +332,7 @@
             <div
               class="space-y-5 mr-8 my-5 basis-[100px] grow max-w-[200px] lg:mx-10 flex flex-col lg:my-0"
             >
-              <h2 class="font-inter font-medium text-[#160042]">COMPANY</h2>
+              <h2 class="font-inter font-medium text-black">COMPANY</h2>
               <a href="" class="text-gray-500 font-inter font-light">About</a>
               <a href="" class="text-gray-500 font-inter font-light">Blog</a>
               <a href="" class="text-gray-500 font-inter font-light">Jobs</a>
@@ -453,32 +355,14 @@
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle
-                  cx="18"
-                  cy="18"
-                  r="18"
-                  fill="url(#paint0_linear_847_8460)"
-                />
+                <circle cx="18" cy="18" r="18" fill="black" />
                 <path
                   d="M26.6211 14.45C25.5711 9.83 21.5411 7.75 18.0011 7.75C18.0011 7.75 18.0011 7.75 17.9911 7.75C14.4611 7.75 10.4211 9.82 9.37107 14.44C8.20107 19.6 11.3611 23.97 14.2211 26.72C15.2811 27.74 16.6411 28.25 18.0011 28.25C19.3611 28.25 20.7211 27.74 21.7711 26.72C24.6311 23.97 27.7911 19.61 26.6211 14.45ZM18.0011 19.46C16.2611 19.46 14.8511 18.05 14.8511 16.31C14.8511 14.57 16.2611 13.16 18.0011 13.16C19.7411 13.16 21.1511 14.57 21.1511 16.31C21.1511 18.05 19.7411 19.46 18.0011 19.46Z"
                   fill="white"
                 />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_847_8460"
-                    x1="8.1"
-                    y1="-6.30002"
-                    x2="63.5433"
-                    y2="7.64775"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#936EFF" />
-                    <stop offset="1" stop-color="#0BC4FF" />
-                  </linearGradient>
-                </defs>
               </svg>
 
-              <p class="text-[#160042] ml-4 font-inter leading-[30px]">
+              <p class="text-black ml-4 font-inter leading-[30px]">
                 8502 Preston Rd. Inglewood, Maine 98380, USA
               </p>
             </div>
@@ -492,32 +376,14 @@
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle
-                  cx="18"
-                  cy="18"
-                  r="18"
-                  fill="url(#paint0_linear_847_8465)"
-                />
+                <circle cx="18" cy="18" r="18" fill="black" />
                 <path
                   d="M23 9.5H13C10 9.5 8 11 8 14.5V21.5C8 25 10 26.5 13 26.5H23C26 26.5 28 25 28 21.5V14.5C28 11 26 9.5 23 9.5ZM23.47 15.59L20.34 18.09C19.68 18.62 18.84 18.88 18 18.88C17.16 18.88 16.31 18.62 15.66 18.09L12.53 15.59C12.21 15.33 12.16 14.85 12.41 14.53C12.67 14.21 13.14 14.15 13.46 14.41L16.59 16.91C17.35 17.52 18.64 17.52 19.4 16.91L22.53 14.41C22.85 14.15 23.33 14.2 23.58 14.53C23.84 14.85 23.79 15.33 23.47 15.59Z"
                   fill="white"
                 />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_847_8465"
-                    x1="8.1"
-                    y1="-6.30002"
-                    x2="63.5433"
-                    y2="7.64775"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#936EFF" />
-                    <stop offset="1" stop-color="#0BC4FF" />
-                  </linearGradient>
-                </defs>
               </svg>
 
-              <p class="text-[#160042] ml-4 font-inter leading-[30px]">
+              <p class="text-black ml-4 font-inter leading-[30px]">
                 support@devjoy.xyz
               </p>
             </div>
@@ -538,10 +404,10 @@
       </div>
     </section>
 
-    <!-- Footer Standard Email-->
+    <!-- Footer Standard Email -->
     <section>
       <div
-        class="w-screen bg-[#F7F8FD] flex flex-col py-20 lg: lg:px-10 xl:px-24 px-6"
+        class="w-screen bg-[#F2F2F2] flex flex-col py-20 lg: lg:px-10 xl:px-24 px-6"
       >
         <!-- LOGO -->
         <svg
@@ -554,27 +420,9 @@
         >
           <path
             d="M15.2084 47C24.5811 47 31.0358 40.4126 31.0358 30.9074C31.0358 21.2695 24.4484 14.6821 14.8989 14.6821H3.58105V47H15.2084ZM14.3684 19.8989C21.0442 19.8989 25.0674 24.0547 25.0674 30.9074C25.0674 37.6274 21.1326 41.7832 14.6779 41.7832H9.24V19.8989H14.3684ZM45.2819 47.5747C50.9851 47.5747 54.964 44.7011 55.8925 39.9263H50.8967C50.2777 42.0042 48.3325 43.1537 45.3704 43.1537C41.7893 43.1537 39.7556 41.2084 39.3577 37.3621L55.804 37.3179V35.6821C55.804 28.8737 51.6483 24.4968 45.1051 24.4968C38.6946 24.4968 34.2293 29.2274 34.2293 36.08C34.2293 42.8442 38.783 47.5747 45.2819 47.5747ZM45.1493 28.9179C48.3767 28.9179 50.4546 30.9074 50.4546 33.9137H39.4904C40.0209 30.6421 41.9662 28.9179 45.1493 28.9179ZM65.3604 47H70.6657L79.7731 25.16H74.2025L70.2236 35.1958C69.2952 37.5832 68.4994 39.8821 68.1899 41.2526C67.9246 40.0589 67.1731 37.8042 66.2446 35.1958L62.4425 25.16H56.6952L65.3604 47ZM85.5705 20.7832C87.3389 20.7832 88.8421 19.3242 88.8421 17.5116C88.8421 15.6989 87.3389 14.2842 85.5705 14.2842C83.7579 14.2842 82.2989 15.6989 82.2989 17.5116C82.2989 19.3242 83.7579 20.7832 85.5705 20.7832ZM77.6568 57.2568C79.0716 57.6547 79.8673 57.7432 80.8842 57.7432C85.6147 57.7432 88.2673 54.7368 88.2673 50.0947V25.16H82.8737V49.4758C82.8737 51.6863 82.2547 52.7474 80.3979 52.7474C79.7347 52.7474 79.2926 52.7032 78.541 52.4821L77.6568 57.2568ZM92.5578 36.0358C92.5578 42.8442 97.4652 47.5305 104.229 47.5305C110.994 47.5305 115.901 42.8442 115.901 36.0358C115.901 29.2274 110.994 24.5411 104.229 24.5411C97.4652 24.5411 92.5578 29.2274 92.5578 36.0358ZM97.9515 36.0358C97.9515 32.0568 100.516 29.36 104.229 29.36C107.943 29.36 110.507 32.0568 110.507 36.0358C110.507 40.0147 107.943 42.7116 104.229 42.7116C100.516 42.7116 97.9515 40.0147 97.9515 36.0358ZM117.455 57.1242C118.649 57.4337 119.975 57.6105 121.478 57.6105C125.059 57.6105 127.358 55.9305 128.994 51.8632L139.693 25.16H134.122L128.198 41.0758L122.583 25.16H116.88L125.678 47.9284L125.059 49.5642C124.131 52.1284 122.804 52.6147 120.682 52.6147H117.455V57.1242Z"
-            fill="#160042"
+            fill="black"
           />
-          <circle
-            cx="84.7373"
-            cy="15.7368"
-            r="5.52632"
-            fill="url(#paint0_linear_559_6318)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_559_6318"
-              x1="79.8442"
-              y1="11.1891"
-              x2="90.2636"
-              y2="21.2631"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#936EFF" />
-              <stop offset="1" stop-color="#0BC4FF" />
-            </linearGradient>
-          </defs>
+          <circle cx="84.7373" cy="15.7368" r="5.52632" fill="black" />
         </svg>
 
         <!-- MIDDLE CONTAINER -->
@@ -587,7 +435,7 @@
             <div
               class="space-y-5 mr-8 my-5 lg:my-0 basis-[100px] grow max-w-[200px] flex flex-col"
             >
-              <h2 class="font-inter font-medium text-[#160042]">SOLUTION</h2>
+              <h2 class="font-inter font-medium text-black">SOLUTION</h2>
               <a href="" class="text-gray-500 font-inter font-light"
                 >Marketing</a
               >
@@ -606,7 +454,7 @@
             <div
               class="space-y-5 mr-8 my-5 lg:my-0 basis-[100px] grow max-w-[200px] flex flex-col"
             >
-              <h2 class="font-inter font-medium text-[#160042]">SUPPORT</h2>
+              <h2 class="font-inter font-medium text-black">SUPPORT</h2>
               <a href="" class="text-gray-500 font-inter font-light">Pricing</a>
               <a href="" class="text-gray-500 font-inter font-light"
                 >Documentation</a
@@ -621,7 +469,7 @@
             <div
               class="space-y-5 mr-8 my-5 lg:my-0 basis-[100px] grow max-w-[200px] flex flex-col"
             >
-              <h2 class="font-inter font-medium text-[#160042]">COMPANY</h2>
+              <h2 class="font-inter font-medium text-black">COMPANY</h2>
               <a href="" class="text-gray-500 font-inter font-light">About</a>
               <a href="" class="text-gray-500 font-inter font-light">Blog</a>
               <a href="" class="text-gray-500 font-inter font-light">Jobs</a>
@@ -636,18 +484,18 @@
           <div class="flex flex-col">
             <form action="" class="mt-14 lg:mt-0 max-w-[421px]">
               <div class="relative">
-                <label for="email" class="font-inter font-medium text-[#160042]"
+                <label for="email" class="font-inter font-medium text-black"
                   >SUBSCRIBE TO NEWSLETTER</label
                 >
                 <input
                   type="email"
-                  class="bg-white border border-gray-200 w-full relative px-6 py-4 mt-4 font-inter text-base rounded-full"
+                  class="bg-white border border-gray-200 w-full relative px-6 py-4 mt-4 font-inter text-base rounded-[6px]"
                   placeholder="Enter your email"
                   name="email"
                 />
                 <button
                   type="submit"
-                  class="absolute top-11 right-[6px] w-auto px-6 py-3 font-inter text-base border border-[#160042] text-white bg-[#160042] rounded-full"
+                  class="absolute top-11 right-[6px] w-auto px-6 py-3 font-inter text-base border border-[black] text-white bg-[black] rounded-[6px]"
                 >
                   Notify me
                 </button>
@@ -657,7 +505,7 @@
             <div>
               <h3
                 for="email"
-                class="font-inter font-medium text-[#160042] mb-4 mt-8"
+                class="font-inter font-medium text-black mb-4 mt-8"
               >
                 EMAIL US
               </h3>
@@ -675,10 +523,7 @@
         <div class="lg:flex lg:flex-row-reverse lg:justify-between">
           <!-- SOCIAL MEDIA ICONS -->
           <div class="flex flex-row mt-6 mb-8 lg:mt-0 lg:mb-0">
-            <a
-              href=""
-              class="mr-4 hover:text-gray-400 text-[#642EFF] transition"
-            >
+            <a href="" class="mr-4 hover:text-gray-400 text-black transition">
               <svg
                 class="fill-current"
                 width="24"
@@ -692,10 +537,7 @@
               </svg>
             </a>
 
-            <a
-              href=""
-              class="mx-4 hover:text-gray-400 text-[#642EFF] transition"
-            >
+            <a href="" class="mx-4 hover:text-gray-400 text-black transition">
               <svg
                 class="fill-current"
                 width="24"
@@ -712,10 +554,7 @@
               </svg>
             </a>
 
-            <a
-              href=""
-              class="mx-4 hover:text-gray-400 text-[#642EFF] transition"
-            >
+            <a href="" class="mx-4 hover:text-gray-400 text-black transition">
               <svg
                 class="fill-current"
                 width="25"
@@ -729,10 +568,7 @@
               </svg>
             </a>
 
-            <a
-              href=""
-              class="mx-4 hover:text-gray-400 text-[#642EFF] transition"
-            >
+            <a href="" class="mx-4 hover:text-gray-400 text-black transition">
               <svg
                 class="fill-current"
                 width="25"
@@ -753,282 +589,10 @@
       </div>
     </section>
 
-    <!-- Footer Standard Email - Dark -->
+    <!-- Footer Standard Email V2 -->
     <section>
       <div
-        class="w-screen bg-[#23145B] flex flex-col py-20 lg: lg:px-10 xl:px-24 px-6"
-      >
-        <!-- LOGO -->
-        <svg
-          width="98"
-          height="42"
-          viewBox="0 0 98 42"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M10.6459 33C17.2067 33 21.7251 28.3888 21.7251 21.7352C21.7251 14.9886 17.1139 10.3775 10.4293 10.3775H2.50674V33H10.6459ZM10.0579 14.0293C14.7309 14.0293 17.5472 16.9383 17.5472 21.7352C17.5472 26.4392 14.7928 29.3482 10.2745 29.3482H6.468V14.0293H10.0579ZM31.6974 33.4023C35.6896 33.4023 38.4748 31.3907 39.1247 28.0484H35.6277C35.1944 29.5029 33.8327 30.3076 31.7593 30.3076C29.2525 30.3076 27.8289 28.9459 27.5504 26.2535L39.0628 26.2225V25.0775C39.0628 20.3116 36.1538 17.2478 31.5736 17.2478C27.0862 17.2478 23.9605 20.5592 23.9605 25.356C23.9605 30.0909 27.1481 33.4023 31.6974 33.4023ZM31.6045 20.3425C33.8637 20.3425 35.3182 21.7352 35.3182 23.8396H27.6433C28.0146 21.5495 29.3763 20.3425 31.6045 20.3425ZM45.7523 33H49.466L55.8411 17.712H51.9418L49.1565 24.7371C48.5066 26.4082 47.9496 28.0175 47.7329 28.9768C47.5472 28.1413 47.0211 26.5629 46.3712 24.7371L43.7098 17.712H39.6866L45.7523 33ZM59.8994 14.6482C61.1372 14.6482 62.1895 13.6269 62.1895 12.3581C62.1895 11.0893 61.1372 10.0989 59.8994 10.0989C58.6305 10.0989 57.6092 11.0893 57.6092 12.3581C57.6092 13.6269 58.6305 14.6482 59.8994 14.6482ZM54.3598 40.1798C55.3501 40.4583 55.9071 40.5202 56.6189 40.5202C59.9303 40.5202 61.7871 38.4158 61.7871 35.1663V17.712H58.0116V34.7331C58.0116 36.2804 57.5783 37.0232 56.2785 37.0232C55.8143 37.0232 55.5048 36.9922 54.9787 36.8375L54.3598 40.1798ZM64.7905 25.3251C64.7905 30.0909 68.2256 33.3714 72.9606 33.3714C77.6955 33.3714 81.1307 30.0909 81.1307 25.3251C81.1307 20.5592 77.6955 17.2787 72.9606 17.2787C68.2256 17.2787 64.7905 20.5592 64.7905 25.3251ZM68.5661 25.3251C68.5661 22.5398 70.361 20.652 72.9606 20.652C75.5602 20.652 77.3551 22.5398 77.3551 25.3251C77.3551 28.1103 75.5602 29.9981 72.9606 29.9981C70.361 29.9981 68.5661 28.1103 68.5661 25.3251ZM82.2184 40.0869C83.054 40.3036 83.9825 40.4274 85.0347 40.4274C87.5414 40.4274 89.1507 39.2514 90.2957 36.4042L97.785 17.712H93.8856L89.7387 28.8531L85.8083 17.712H81.8161L87.9747 33.6499L87.5414 34.7949C86.8915 36.5899 85.9631 36.9303 84.4776 36.9303H82.2184V40.0869Z"
-            fill="white"
-          />
-          <circle
-            cx="59.3176"
-            cy="11.0159"
-            r="3.86842"
-            fill="url(#paint0_linear_559_6370)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear_559_6370"
-              x1="55.8925"
-              y1="7.83249"
-              x2="63.1861"
-              y2="14.8843"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stop-color="#936EFF" />
-              <stop offset="1" stop-color="#0BC4FF" />
-            </linearGradient>
-          </defs>
-        </svg>
-
-        <!-- MIDDLE CONTAINER -->
-        <div class="mt-12 lg:flex lg:flex-row lg:justify-between">
-          <!-- FOOTER LINKS -->
-          <div
-            class="flex flex-row flex-wrap lg:flex-nowrap grow lg:items-start"
-          >
-            <!-- LINK BLOCK -->
-            <div
-              class="space-y-5 mr-8 my-5 lg:my-0 basis-[100px] grow max-w-[200px] flex flex-col"
-            >
-              <h2 class="font-inter font-medium text-white">SOLUTION</h2>
-              <a href="" class="text-gray-300 font-inter font-light"
-                >Marketing</a
-              >
-              <a href="" class="text-gray-300 font-inter font-light"
-                >Analytics</a
-              >
-              <a href="" class="text-gray-300 font-inter font-light"
-                >Commerce</a
-              >
-              <a href="" class="text-gray-300 font-inter font-light"
-                >Insights</a
-              >
-            </div>
-
-            <!-- LINK BLOCK -->
-            <div
-              class="space-y-5 mr-8 my-5 lg:my-0 basis-[100px] grow max-w-[200px] flex flex-col"
-            >
-              <h2 class="font-inter font-medium text-white">SUPPORT</h2>
-              <a href="" class="text-gray-300 font-inter font-light">Pricing</a>
-              <a href="" class="text-gray-300 font-inter font-light"
-                >Documentation</a
-              >
-              <a href="" class="text-gray-300 font-inter font-light">Guides</a>
-              <a href="" class="text-gray-300 font-inter font-light"
-                >API Status</a
-              >
-            </div>
-
-            <!-- LINK BLOCK -->
-            <div
-              class="space-y-5 mr-8 my-5 lg:my-0 basis-[100px] grow max-w-[200px] flex flex-col"
-            >
-              <h2 class="font-inter font-medium text-white">COMPANY</h2>
-              <a href="" class="text-gray-300 font-inter font-light">About</a>
-              <a href="" class="text-gray-300 font-inter font-light">Blog</a>
-              <a href="" class="text-gray-300 font-inter font-light">Jobs</a>
-              <a href="" class="text-gray-300 font-inter font-light">Press</a>
-              <a href="" class="text-gray-300 font-inter font-light"
-                >Partners</a
-              >
-            </div>
-          </div>
-
-          <!-- NEWSLETTER & EMAIL -->
-          <div class="flex flex-col">
-            <form action="" class="mt-14 lg:mt-0 max-w-[421px]">
-              <div class="relative">
-                <label for="email" class="font-inter font-medium text-white"
-                  >SUBSCRIBE TO NEWSLETTER</label
-                >
-                <input
-                  type="email"
-                  class="bg-white border border-gray-200 w-full relative px-6 py-4 mt-4 font-inter text-base rounded-full"
-                  placeholder="Enter your email"
-                  name="email"
-                />
-                <button
-                  type="submit"
-                  class="absolute top-11 right-[6px] w-auto px-6 py-3 font-inter text-base border border-[#160042] text-white bg-[#160042] rounded-full"
-                >
-                  Notify me
-                </button>
-              </div>
-            </form>
-
-            <div>
-              <h3
-                for="email"
-                class="font-inter font-medium text-white mb-4 mt-8"
-              >
-                EMAIL US
-              </h3>
-              <p class="font-inter text-base text-gray-300">
-                support@devjoy.co
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- DIVIDER -->
-        <div
-          class="border border-white opacity-[12%] w-full my-12 lg:my-20 mx-auto"
-        ></div>
-
-        <!-- COPYRIGHT TEXT -->
-        <div class="lg:flex lg:flex-row-reverse lg:justify-between">
-          <!-- SOCIAL MEDIA ICONS -->
-          <div class="flex flex-row mt-6 mb-8 lg:mt-0 lg:mb-0">
-            <a href="" class="mr-4">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12 2.25C9.4791 2.25005 7.05619 3.22647 5.23968 4.97439C3.42317 6.72231 2.35426 9.10586 2.25723 11.6249C2.1602 14.1439 3.0426 16.6026 4.71928 18.4851C6.39595 20.3676 8.73657 21.5275 11.25 21.7214V14.2501H9C8.80109 14.2501 8.61032 14.1711 8.46967 14.0304C8.32902 13.8898 8.25 13.699 8.25 13.5001C8.25 13.3012 8.32902 13.1104 8.46967 12.9698C8.61032 12.8291 8.80109 12.7501 9 12.7501H11.25V10.5001C11.2509 9.70472 11.5673 8.94218 12.1297 8.37977C12.6921 7.81736 13.4546 7.501 14.25 7.50009H15.75C15.9489 7.50009 16.1397 7.57911 16.2803 7.71976C16.421 7.86041 16.5 8.05118 16.5 8.25009C16.5 8.449 16.421 8.63977 16.2803 8.78042C16.1397 8.92107 15.9489 9.00009 15.75 9.00009H14.25C13.8523 9.00054 13.471 9.15872 13.1898 9.43993C12.9086 9.72114 12.7505 10.1024 12.75 10.5001V12.7501H15C15.1989 12.7501 15.3897 12.8291 15.5303 12.9698C15.671 13.1104 15.75 13.3012 15.75 13.5001C15.75 13.699 15.671 13.8898 15.5303 14.0304C15.3897 14.1711 15.1989 14.2501 15 14.2501H12.75V21.7214C15.2634 21.5275 17.604 20.3676 19.2807 18.4851C20.9574 16.6026 21.8398 14.1439 21.7427 11.6249C21.6457 9.10587 20.5768 6.72232 18.7603 4.9744C16.9438 3.22649 14.5209 2.25006 12 2.25Z"
-                  fill="url(#paint0_linear_559_6342)"
-                />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_559_6342"
-                    x1="3.36719"
-                    y1="3.97403"
-                    x2="21.724"
-                    y2="21.7483"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#936EFF" />
-                    <stop offset="1" stop-color="#0BC4FF" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </a>
-
-            <a href="" class="mx-4">
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z"
-                  fill="url(#paint0_linear_559_6341)"
-                />
-                <path
-                  d="M16.125 2.625H7.875C6.4831 2.62658 5.14865 3.18021 4.16443 4.16443C3.18021 5.14865 2.62658 6.4831 2.625 7.875V16.125C2.62658 17.5169 3.18021 18.8513 4.16443 19.8356C5.14865 20.8198 6.4831 21.3734 7.875 21.375H16.125C17.5169 21.3734 18.8513 20.8198 19.8356 19.8356C20.8198 18.8513 21.3734 17.5169 21.375 16.125V7.875C21.3734 6.4831 20.8198 5.14865 19.8356 4.16443C18.8513 3.18021 17.5169 2.62658 16.125 2.625ZM12 16.5C11.11 16.5 10.24 16.2361 9.49993 15.7416C8.75991 15.2471 8.18314 14.5443 7.84254 13.7221C7.50195 12.8998 7.41283 11.995 7.58647 11.1221C7.7601 10.2492 8.18868 9.44736 8.81802 8.81802C9.44736 8.18868 10.2492 7.7601 11.1221 7.58647C11.995 7.41283 12.8998 7.50195 13.7221 7.84254C14.5443 8.18314 15.2471 8.75991 15.7416 9.49993C16.2361 10.24 16.5 11.11 16.5 12C16.4987 13.1931 16.0241 14.3369 15.1805 15.1805C14.3369 16.0241 13.1931 16.4987 12 16.5ZM16.875 8.25C16.6525 8.25 16.435 8.18402 16.25 8.0604C16.065 7.93679 15.9208 7.76109 15.8356 7.55552C15.7505 7.34995 15.7282 7.12375 15.7716 6.90552C15.815 6.68729 15.9222 6.48684 16.0795 6.3295C16.2368 6.17217 16.4373 6.06502 16.6555 6.02162C16.8738 5.97821 17.1 6.00049 17.3055 6.08564C17.5111 6.17078 17.6868 6.31498 17.8104 6.49998C17.934 6.68499 18 6.9025 18 7.125C18 7.42337 17.8815 7.70952 17.6705 7.9205C17.4595 8.13147 17.1734 8.25 16.875 8.25Z"
-                  fill="url(#paint1_linear_559_6341)"
-                />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_559_6341"
-                    x1="9.34375"
-                    y1="9.53125"
-                    x2="15"
-                    y2="15"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#936EFF" />
-                    <stop offset="1" stop-color="#0BC4FF" />
-                  </linearGradient>
-                  <linearGradient
-                    id="paint1_linear_559_6341"
-                    x1="3.69922"
-                    y1="4.28515"
-                    x2="21.375"
-                    y2="21.375"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#936EFF" />
-                    <stop offset="1" stop-color="#0BC4FF" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </a>
-
-            <a href="" class="mx-4">
-              <svg
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M21.5952 12.4998C22.1776 11.988 22.5489 11.2779 22.6367 10.5076C22.7245 9.73723 22.5226 8.96177 22.0703 8.33205C21.618 7.70233 20.9476 7.2634 20.1895 7.10064C19.4315 6.93788 18.64 7.06293 17.969 7.45147V5.46854C17.9694 4.83357 17.7763 4.21356 17.4153 3.69117C17.0544 3.16878 16.5427 2.76884 15.9486 2.54466C15.3546 2.32048 14.7063 2.28271 14.0902 2.4364C13.4741 2.59009 12.9195 2.92793 12.5003 3.40487C11.9885 2.82243 11.2784 2.45118 10.5081 2.36336C9.73772 2.27555 8.96225 2.47744 8.33253 2.92976C7.70282 3.38208 7.26388 4.05249 7.10112 4.81054C6.93836 5.5686 7.06342 6.36009 7.45197 7.03104H5.46904C4.83406 7.03063 4.21405 7.22379 3.69166 7.58476C3.16927 7.94573 2.76933 8.45736 2.54515 9.05144C2.32097 9.64552 2.28321 10.2938 2.4369 10.9099C2.59059 11.526 2.92843 12.0806 3.40538 12.4998C2.82293 13.0115 2.45168 13.7217 2.36386 14.492C2.27603 15.2624 2.47792 16.0378 2.93024 16.6676C3.38257 17.2973 4.05297 17.7362 4.81103 17.899C5.56909 18.0617 6.36059 17.9367 7.03154 17.5481V19.531C7.03113 20.166 7.22428 20.786 7.58525 21.3084C7.94622 21.8308 8.45785 22.2307 9.05193 22.4549C9.64602 22.6791 10.2943 22.7169 10.9104 22.5632C11.5265 22.4095 12.0811 22.0717 12.5003 21.5947C13.012 22.1772 13.7222 22.5484 14.4925 22.6362C15.2629 22.724 16.0383 22.5221 16.668 22.0698C17.2978 21.6175 17.7367 20.9471 17.8995 20.189C18.0622 19.431 17.9372 18.6395 17.5486 17.9685H19.5315C20.1665 17.969 20.7865 17.7758 21.3089 17.4148C21.8313 17.0539 22.2312 16.5422 22.4554 15.9481C22.6796 15.3541 22.7174 14.7058 22.5637 14.0897C22.41 13.4736 22.0721 12.919 21.5952 12.4998ZM8.59404 5.46854C8.59404 5.05414 8.75866 4.65671 9.05168 4.36369C9.34471 4.07066 9.74214 3.90604 10.1565 3.90604C10.5709 3.90604 10.9684 4.07066 11.2614 4.36369C11.5544 4.65671 11.719 5.05414 11.719 5.46854V7.03104H10.1565C9.74228 7.03057 9.34513 6.8658 9.05221 6.57287C8.75928 6.27995 8.59451 5.8828 8.59404 5.46854ZM3.90654 10.156C3.90701 9.74179 4.07178 9.34463 4.36471 9.05171C4.65763 8.75879 5.05478 8.59402 5.46904 8.59354H10.1565C10.5708 8.59402 10.9679 8.75879 11.2609 9.05171C11.5538 9.34463 11.7186 9.74179 11.719 10.156V11.7185H5.46904C5.05478 11.7181 4.65763 11.5533 4.36471 11.2604C4.07178 10.9675 3.90701 10.5703 3.90654 10.156ZM16.4065 19.531C16.4065 19.9454 16.2419 20.3429 15.9489 20.6359C15.6559 20.9289 15.2584 21.0935 14.844 21.0935C14.4296 21.0935 14.0322 20.9289 13.7392 20.6359C13.4462 20.3429 13.2815 19.9454 13.2815 19.531V17.9685H14.844C15.2583 17.969 15.6554 18.1338 15.9484 18.4267C16.2413 18.7196 16.4061 19.1168 16.4065 19.531ZM19.5315 16.406H14.844C14.4298 16.4056 14.0326 16.2408 13.7397 15.9479C13.4468 15.655 13.282 15.2578 13.2815 14.8435V13.281H19.5315C19.9459 13.281 20.3434 13.4457 20.6364 13.7387C20.9294 14.0317 21.094 14.4291 21.094 14.8435C21.094 15.2579 20.9294 15.6554 20.6364 15.9484C20.3434 16.2414 19.9459 16.406 19.5315 16.406Z"
-                  fill="url(#paint0_linear_559_6344)"
-                />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_559_6344"
-                    x1="3.50752"
-                    y1="4.14181"
-                    x2="22.6568"
-                    y2="22.6563"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#936EFF" />
-                    <stop offset="1" stop-color="#0BC4FF" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </a>
-
-            <a href="" class="mx-4">
-              <svg
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.9883 7.58391L21.0426 10.5297C20.4545 17.354 14.6994 22.6565 7.81089 22.6565C6.39249 22.6565 5.22357 22.4316 4.33651 21.9881C3.62063 21.6301 3.32738 21.246 3.25461 21.1367C3.18933 21.0388 3.14702 20.9274 3.13083 20.8108C3.11464 20.6943 3.12499 20.5755 3.16112 20.4635C3.19724 20.3515 3.2582 20.2491 3.33945 20.164C3.42069 20.0789 3.52012 20.0132 3.63031 19.9718C3.65544 19.9624 5.95923 19.0775 7.44821 17.3929C6.52206 16.7334 5.70694 15.9305 5.0335 15.0145C3.69483 13.1977 2.27901 10.0427 3.13598 5.32923C3.16148 5.18895 3.22489 5.05833 3.31932 4.95152C3.41376 4.8447 3.53562 4.76577 3.67171 4.72326C3.8078 4.68075 3.95293 4.67629 4.09137 4.71037C4.22981 4.74445 4.35629 4.81575 4.4571 4.91657C4.49153 4.9509 7.74246 8.15592 11.7166 9.19118L11.7171 8.59361C11.7256 7.34276 12.2303 6.14644 13.1204 5.26759C14.0105 4.38874 15.2132 3.89929 16.4641 3.90682C17.2766 3.91808 18.0724 4.1399 18.7737 4.55063C19.4749 4.96136 20.0576 5.54694 20.4649 6.25019L23.4359 6.25024C23.5904 6.25024 23.7414 6.29606 23.8699 6.3819C23.9984 6.46774 24.0985 6.58975 24.1577 6.73251C24.2168 6.87526 24.2323 7.03234 24.2021 7.18389C24.172 7.33543 24.0976 7.47464 23.9883 7.58391Z"
-                  fill="url(#paint0_linear_559_6343)"
-                />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_559_6343"
-                    x1="4.09773"
-                    y1="5.56687"
-                    x2="21.7025"
-                    y2="24.9414"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop stop-color="#936EFF" />
-                    <stop offset="1" stop-color="#0BC4FF" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </a>
-          </div>
-          <p class="text-gray-300 font-inter text-sm lg:mt-0">
-            © Copyright 2021. All rights reserved.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer Standard Email-->
-    <section>
-      <div
-        class="w-screen bg-[#F7F8FD] flex flex-col py-20 lg: lg:px-10 xl:px-24 px-6"
+        class="w-screen bg-[#F2F2F2] flex flex-col py-20 lg: lg:px-10 xl:px-24 px-6"
       >
         <!-- TOP CONTAINER -->
         <div class="flex flex-col lg:flex-row lg:justify-between">
@@ -1045,14 +609,9 @@
             >
               <path
                 d="M15.2084 47C24.5811 47 31.0358 40.4126 31.0358 30.9074C31.0358 21.2695 24.4484 14.6821 14.8989 14.6821H3.58105V47H15.2084ZM14.3684 19.8989C21.0442 19.8989 25.0674 24.0547 25.0674 30.9074C25.0674 37.6274 21.1326 41.7832 14.6779 41.7832H9.24V19.8989H14.3684ZM45.2819 47.5747C50.9851 47.5747 54.964 44.7011 55.8925 39.9263H50.8967C50.2777 42.0042 48.3325 43.1537 45.3704 43.1537C41.7893 43.1537 39.7556 41.2084 39.3577 37.3621L55.804 37.3179V35.6821C55.804 28.8737 51.6483 24.4968 45.1051 24.4968C38.6946 24.4968 34.2293 29.2274 34.2293 36.08C34.2293 42.8442 38.783 47.5747 45.2819 47.5747ZM45.1493 28.9179C48.3767 28.9179 50.4546 30.9074 50.4546 33.9137H39.4904C40.0209 30.6421 41.9662 28.9179 45.1493 28.9179ZM65.3604 47H70.6657L79.7731 25.16H74.2025L70.2236 35.1958C69.2952 37.5832 68.4994 39.8821 68.1899 41.2526C67.9246 40.0589 67.1731 37.8042 66.2446 35.1958L62.4425 25.16H56.6952L65.3604 47ZM85.5705 20.7832C87.3389 20.7832 88.8421 19.3242 88.8421 17.5116C88.8421 15.6989 87.3389 14.2842 85.5705 14.2842C83.7579 14.2842 82.2989 15.6989 82.2989 17.5116C82.2989 19.3242 83.7579 20.7832 85.5705 20.7832ZM77.6568 57.2568C79.0716 57.6547 79.8673 57.7432 80.8842 57.7432C85.6147 57.7432 88.2673 54.7368 88.2673 50.0947V25.16H82.8737V49.4758C82.8737 51.6863 82.2547 52.7474 80.3979 52.7474C79.7347 52.7474 79.2926 52.7032 78.541 52.4821L77.6568 57.2568ZM92.5578 36.0358C92.5578 42.8442 97.4652 47.5305 104.229 47.5305C110.994 47.5305 115.901 42.8442 115.901 36.0358C115.901 29.2274 110.994 24.5411 104.229 24.5411C97.4652 24.5411 92.5578 29.2274 92.5578 36.0358ZM97.9515 36.0358C97.9515 32.0568 100.516 29.36 104.229 29.36C107.943 29.36 110.507 32.0568 110.507 36.0358C110.507 40.0147 107.943 42.7116 104.229 42.7116C100.516 42.7116 97.9515 40.0147 97.9515 36.0358ZM117.455 57.1242C118.649 57.4337 119.975 57.6105 121.478 57.6105C125.059 57.6105 127.358 55.9305 128.994 51.8632L139.693 25.16H134.122L128.198 41.0758L122.583 25.16H116.88L125.678 47.9284L125.059 49.5642C124.131 52.1284 122.804 52.6147 120.682 52.6147H117.455V57.1242Z"
-                fill="#160042"
+                fill="black"
               />
-              <circle
-                cx="84.7373"
-                cy="15.7368"
-                r="5.52632"
-                fill="url(#paint0_linear_559_6318)"
-              />
+              <circle cx="84.7373" cy="15.7368" r="5.52632" fill="black" />
               <defs>
                 <linearGradient
                   id="paint0_linear_559_6318"
@@ -1078,48 +637,30 @@
             <div class="flex flex-col">
               <form action="" class="mt-5 mb-10 max-w-[421px]">
                 <div class="relative">
-                  <label
-                    for="email"
-                    class="font-inter font-medium text-[#160042]"
+                  <label for="email" class="font-inter font-medium text-black"
                     >SUBSCRIBE TO NEWSLETTER</label
                   >
                   <input
                     type="email"
-                    class="bg-white border border-gray-200 w-full relative px-6 py-4 mt-4 font-inter text-base rounded-full"
+                    class="bg-white border border-gray-200 w-full relative px-6 py-4 mt-4 font-inter text-base rounded-md"
                     placeholder="Enter your email"
                     name="email"
                   />
-                  <button type="submit" class="absolute top-[45px] right-[5px]">
+                  <button
+                    type="submit"
+                    class="absolute top-[55px] right-[15px]"
+                  >
                     <svg
-                      width="47"
-                      height="47"
-                      viewBox="0 0 47 47"
+                      width="26"
+                      height="26"
+                      viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <circle
-                        cx="23.5"
-                        cy="23.5"
-                        r="23.5"
-                        fill="url(#paint0_linear_538_5803)"
-                      />
                       <path
-                        d="M32.9742 15.0246C32.7856 14.8362 32.5502 14.7014 32.2923 14.6341C32.0343 14.5668 31.763 14.5694 31.5064 14.6417L14.0381 19.5686C13.7442 19.6515 13.4826 19.8221 13.2883 20.0577C13.0939 20.2932 12.9761 20.5825 12.9506 20.8868C12.925 21.1911 12.993 21.4959 13.1453 21.7606C13.2977 22.0252 13.5272 22.2371 13.8032 22.3678L21.1095 25.8287L26.1047 20.8335C26.2453 20.6928 26.4361 20.6138 26.635 20.6138C26.834 20.6138 27.0248 20.6928 27.1654 20.8335C27.3061 20.9741 27.3851 21.1649 27.3851 21.3638C27.3851 21.5628 27.3061 21.7535 27.1654 21.8942L22.1702 26.8894L25.6311 34.1957C25.751 34.4527 25.9419 34.6701 26.1813 34.8222C26.4208 34.9742 26.6988 35.0546 26.9824 35.0537C27.0253 35.0537 27.0686 35.0519 27.1121 35.0483C27.417 35.0245 27.7071 34.9073 27.9429 34.7127C28.1788 34.5181 28.349 34.2555 28.4303 33.9608L33.3572 16.4925C33.4294 16.2359 33.432 15.9646 33.3647 15.7067C33.2974 15.4487 33.1626 15.2133 32.9742 15.0246V15.0246Z"
-                        fill="white"
+                        d="M20.9743 3.02464C20.7856 2.83619 20.5502 2.70138 20.2923 2.63407C20.0343 2.56676 19.763 2.56938 19.5064 2.64167L2.03813 7.56858C1.74421 7.65147 1.4826 7.8221 1.28826 8.05765C1.09392 8.29321 0.976107 8.58247 0.950568 8.88678C0.925029 9.19109 0.992982 9.49594 1.14534 9.76059C1.2977 10.0252 1.52722 10.2371 1.8032 10.3678L9.10948 13.8287L14.1047 8.83347C14.2453 8.69281 14.4361 8.61379 14.635 8.61379C14.834 8.61379 15.0248 8.69281 15.1654 8.83347C15.3061 8.97413 15.3851 9.16491 15.3851 9.36384C15.3851 9.56276 15.3061 9.75354 15.1654 9.8942L10.1702 14.8894L13.6311 22.1957C13.751 22.4527 13.9419 22.6701 14.1813 22.8222C14.4208 22.9742 14.6988 23.0546 14.9824 23.0537C15.0253 23.0537 15.0686 23.0519 15.1121 23.0483C15.417 23.0245 15.7071 22.9073 15.9429 22.7127C16.1788 22.5181 16.349 22.2555 16.4303 21.9608L21.3572 4.4925C21.4294 4.23586 21.432 3.96463 21.3647 3.70665C21.2974 3.44868 21.1626 3.21328 20.9743 3.02464Z"
+                        fill="black"
                       />
-                      <defs>
-                        <linearGradient
-                          id="paint0_linear_538_5803"
-                          x1="2.69271"
-                          y1="4.16145"
-                          x2="47"
-                          y2="47"
-                          gradientUnits="userSpaceOnUse"
-                        >
-                          <stop stop-color="#936EFF" />
-                          <stop offset="1" stop-color="#0BC4FF" />
-                        </linearGradient>
-                      </defs>
                     </svg>
                   </button>
                 </div>
@@ -1128,7 +669,7 @@
               <div>
                 <h3
                   for="email"
-                  class="font-inter font-medium text-[#160042] mb-4 mt-8"
+                  class="font-inter font-medium text-black mb-4 mt-8"
                 >
                   EMAIL US
                 </h3>
@@ -1147,7 +688,7 @@
               <div
                 class="space-y-5 mr-8 my-5 lg:my-0 basis-[100px] grow max-w-[500px] flex flex-col"
               >
-                <h2 class="font-inter font-medium text-[#160042]">SOLUTION</h2>
+                <h2 class="font-inter font-medium text-black">SOLUTION</h2>
                 <a href="" class="text-gray-500 font-inter font-light"
                   >Marketing</a
                 >
@@ -1166,7 +707,7 @@
               <div
                 class="space-y-5 mr-8 my-5 lg:my-0 basis-[100px] grow max-w-[500px] flex flex-col"
               >
-                <h2 class="font-inter font-medium text-[#160042]">SUPPORT</h2>
+                <h2 class="font-inter font-medium text-black">SUPPORT</h2>
                 <a href="" class="text-gray-500 font-inter font-light"
                   >Pricing</a
                 >
@@ -1185,7 +726,7 @@
               <div
                 class="space-y-5 mr-8 lg:mr-0 my-5 lg:my-0 basis-[100px] grow max-w-[500px] flex flex-col"
               >
-                <h2 class="font-inter font-medium text-[#160042]">COMPANY</h2>
+                <h2 class="font-inter font-medium text-black">COMPANY</h2>
                 <a href="" class="text-gray-500 font-inter font-light">About</a>
                 <a href="" class="text-gray-500 font-inter font-light">Blog</a>
                 <a href="" class="text-gray-500 font-inter font-light">Jobs</a>
@@ -1202,10 +743,7 @@
         <div class="lg:flex lg:flex-row-reverse lg:justify-between mt-20">
           <!-- SOCIAL MEDIA ICONS -->
           <div class="flex flex-row mt-6 mb-8 lg:mt-0 lg:mb-0">
-            <a
-              href=""
-              class="mr-4 hover:text-gray-400 text-[#642EFF] transition"
-            >
+            <a href="" class="mr-4 hover:text-gray-400 text-black transition">
               <svg
                 class="fill-current"
                 width="24"
@@ -1219,10 +757,7 @@
               </svg>
             </a>
 
-            <a
-              href=""
-              class="mx-4 hover:text-gray-400 text-[#642EFF] transition"
-            >
+            <a href="" class="mx-4 hover:text-gray-400 text-black transition">
               <svg
                 class="fill-current"
                 width="24"
@@ -1239,10 +774,7 @@
               </svg>
             </a>
 
-            <a
-              href=""
-              class="mx-4 hover:text-gray-400 text-[#642EFF] transition"
-            >
+            <a href="" class="mx-4 hover:text-gray-400 text-black transition">
               <svg
                 class="fill-current"
                 width="25"
@@ -1256,10 +788,7 @@
               </svg>
             </a>
 
-            <a
-              href=""
-              class="mx-4 hover:text-gray-400 text-[#642EFF] transition"
-            >
+            <a href="" class="mx-4 hover:text-gray-400 text-black transition">
               <svg
                 class="fill-current"
                 width="25"
