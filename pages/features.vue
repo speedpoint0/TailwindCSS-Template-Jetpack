@@ -68,13 +68,13 @@
       <!-- NAVBAR -->
     </section>
 
-    <!-- Features Grid Layout - 3x2 -->
+    <!--  Features Grid Layout - 3x2 -->
     <section class="py-12">
       <div
         class="flex flex-col items-center justify-center w-full max-w-[1186px] mx-auto py-12 px-10 rounded-b-[60px]"
       >
         <!-- TEXT DIV -->
-        <div class="max-w-[738px] mb-10">
+        <div class="max-w-[650px] mb-10">
           <h2
             class="text-[32px] leading-[45px] lg:text-[40px] lg:leading-[52px] text-black text-center font-bold"
           >
