@@ -7,7 +7,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
 .vscode/
 .gitattributes
 # Runtime data
@@ -72,7 +71,6 @@ typings/
 .nuxt
 
 # Nuxt generate
-dist
 
 # vuepress build output
 .vuepress/dist
