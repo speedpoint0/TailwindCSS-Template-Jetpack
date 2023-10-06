@@ -2,13 +2,15 @@
 
 Welcome! In this repository, you'll find the code for all of our **Layout style components**. You are free to clone and use them for both personal and commercial projects.
 
-[![Tailspark Logo](https://path.to/your/logo/if/you/have/one.png)](https://tailspark.co/)
+[![Tailspark Logo](https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Favicon%20512x512%20(1).png?alt=media&token=bd402e21-5a9b-47fc-8e47-a7dc63dfe12c)](https://tailspark.co/)
 
 ## 🚀 Getting Started
 
 **Hundreds More Components** - Access hundreds more TailwindCSS components for free [right here on Tailspark](https://tailspark.co/).
 
 ## 📄 License
+
+You are free to use Tailspark components in any project, whether it's for commercial or personal use, without the need for attribution or any costs. However, please refrain from attempting to replicate Tailspark, redistribute the components as a package, or create integrations based on them.
 
 You can find the full  [license details](https://tailspark.co/license).
 

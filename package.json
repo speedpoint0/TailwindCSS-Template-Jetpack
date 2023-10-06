@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/router": "^1.7.0",
     "alpinejs": "^3.9.6",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
