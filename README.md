@@ -1,4 +1,4 @@
-# Tailspark TailwindCSS Components - Layout Style 🎨✨
+# Tailspark TailwindCSS Components - Quantum Style 🎨✨
 
 Welcome! In this repository, you'll find the code for all of our **Layout style components**. You are free to clone and use them for both personal and commercial projects.
 
