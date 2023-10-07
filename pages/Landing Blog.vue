@@ -49,7 +49,7 @@
 								>Templates</a
 							>
 							<a
-								href="https://flowspark.co/designs"
+								href="https://flowspark.co/design"
 								class="2 ml-5 rounded-full bg-[#081631] px-6 py-4 text-center font-semibold text-white transition hover:bg-[#2d6ae0] md:ml-10 lg:ml-4"
 								>Get Custom Designs</a
 							>
