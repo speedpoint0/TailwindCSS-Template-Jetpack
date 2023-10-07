@@ -39,14 +39,14 @@
 				<div
 					class="w-full mx-auto mb-10 flex flex-row flex-wrap justify-center"
 				>
-					<!-- <button
+					<button
 						class="mr-6 mb-6 rounded-lg bg-[#2d6ae0] px-8 py-5 text-center font-bold text-white transition hover:bg-[#081631]"
 						v-for="route in routes"
 						:key="route.name"
 						@click="goToPage(route.path)"
 					>
 						{{ route.name }}
-					</button> -->
+					</button>
 				</div>
 				<div class="">
 					<img
@@ -63,11 +63,14 @@
 <script>
 	export default {
 		data() {
-			// return {
-			// 	routes: this.$router.options.routes.filter(
-			// 		(route) => !route.path.includes(":")
-			// 	),
-			// };
+			return {
+				routes: [],
+			};
+		},
+		mounted() {
+			this.routes = this.$router.options.routes.filter(
+				(route) => !route.path.includes(":")
+			);
 		},
 		methods: {
 			goToPage(path) {
