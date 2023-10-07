@@ -15,7 +15,9 @@
 						class="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20"
 					>
 						<!-- LOGO - YOU CAN REPLACE THIS -->
-						<a href="#">
+						<a
+							href="https://tailwind-css-template-quantum-jovs77w0a-flowsparks-projects.vercel.app"
+						>
 							<img
 								src="https://assets.website-files.com/647e296b89c00bcfafccf696/647f03f3e434e2326e8af190_%5BA%5D--Navbar%20Brand%20(1).png"
 								alt=""
@@ -103,7 +105,7 @@
 						class="mx-auto mb-8 flex max-w-3xl flex-col items-center md:mb-12 lg:mb-16"
 					>
 						<h2 class="text-3xl font-bold md:text-5xl">
-							Simple &amp; Fixed Pricing
+							Simple &amp; Fixed Pricing testt
 						</h2>
 					</div>
 					<!-- Pricing Cards -->
