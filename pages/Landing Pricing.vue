@@ -105,7 +105,7 @@
 						class="mx-auto mb-8 flex max-w-3xl flex-col items-center md:mb-12 lg:mb-16"
 					>
 						<h2 class="text-3xl font-bold md:text-5xl">
-							Simple &amp; Fixed Pricing testt
+							Simple &amp; Fixed Pricing
 						</h2>
 					</div>
 					<!-- Pricing Cards -->
