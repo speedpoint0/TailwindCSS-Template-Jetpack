@@ -29,10 +29,10 @@
 							class="mt-10 flex flex-col items-start space-y-8 lg:mt-0 lg:flex lg:flex-row lg:items-center lg:space-x-3 lg:space-y-0"
 							x-bind:class="isOpen ? 'show' : 'hidden'"
 						>
-							<a
-								href="https://tailwind-css-template-quantum-jovs77w0a-flowsparks-projects.vercel.app/"
+							<nuxt-link
+								to="/"
 								class="px-5 py-2 font-semibold text-[#5b6782] transition hover:text-white max-[991px]:block md:px-10 lg:px-4"
-								>Home</a
+								>Home</nuxt-link
 							>
 							<a
 								href="https://tailwind-css-template-quantum-jovs77w0a-flowsparks-projects.vercel.app/Landing%20Pricing"
