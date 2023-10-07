@@ -15,7 +15,7 @@
 						class="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4 xl:px-20"
 					>
 						<!-- LOGO - YOU CAN REPLACE THIS -->
-						<a href="#">
+						<a href="https://tailwind-css-template-quantum.vercel.app">
 							<img
 								src="https://assets.website-files.com/647e296b89c00bcfafccf696/647f03f3e434e2326e8af190_%5BA%5D--Navbar%20Brand%20(1).png"
 								alt=""
@@ -27,18 +27,18 @@
 							class="mt-10 flex flex-col items-start space-y-8 lg:mt-0 lg:flex lg:flex-row lg:items-center lg:space-x-3 lg:space-y-0"
 							x-bind:class="isOpen ? 'show' : 'hidden'"
 						>
-							<a
-								href="https://tailwind-css-template-quantum-jovs77w0a-flowsparks-projects.vercel.app/"
+							<nuxt-link
+								to="https://tailwind-css-template-quantum.vercel.app/"
 								class="px-5 py-2 font-semibold text-[#5b6782] transition hover:text-white max-[991px]:block md:px-10 lg:px-4"
-								>Home</a
+								>Home</nuxt-link
 							>
 							<a
-								href="https://tailwind-css-template-quantum-jovs77w0a-flowsparks-projects.vercel.app/Landing%20Pricing"
+								href="https://tailwind-css-template-quantum.vercel.app/Landing%20Pricing"
 								class="px-5 py-2 font-semibold text-[#5b6782] transition hover:text-white max-[991px]:block md:px-10 lg:px-4"
 								>Pricing</a
 							>
 							<a
-								href="https://tailwind-css-template-quantum-jovs77w0a-flowsparks-projects.vercel.app/Landing%20Blog"
+								href="https://tailwind-css-template-quantum.vercel.app/Landing%20Blog"
 								class="px-5 py-2 font-semibold text-[#5b6782] transition hover:text-white max-[991px]:block md:px-10 lg:px-4"
 								>Blog</a
 							>
