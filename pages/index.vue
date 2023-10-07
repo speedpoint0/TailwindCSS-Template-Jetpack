@@ -11,7 +11,7 @@
 				>
 					<!-- Heading Text -->
 					<h1 class="mb-4 text-4xl font-bold md:text-6xl">
-						Tailspark Layout Components
+						Tailspark Quantum Components
 					</h1>
 					<div class="mb-5 max-w-[528px] lg:mb-8">
 						<p class="text-[#7c8aaa]">
