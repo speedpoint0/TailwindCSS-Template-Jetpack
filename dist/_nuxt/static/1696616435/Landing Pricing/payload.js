@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/Landing Pricing", {data:[{}],fetch:{},mutations:void 0});
