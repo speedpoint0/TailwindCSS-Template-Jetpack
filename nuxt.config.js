@@ -42,7 +42,7 @@ export default {
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
-	modules: ["@nuxtjs/router"],
+	modules: [],
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
