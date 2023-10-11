@@ -283,7 +283,7 @@
 
 		<section>
 			<!-- Container -->
-			<div class="max-w-7xl px-5 py-16 md:px-10 md:py-16 lg:py-24">
+			<div class="max-w-7xl px-5 py-16 md:px-10 md:py-16 lg:py-24 mx-auto">
 				<!-- Heading Div -->
 				<div class="mx-auto w-full max-w-3xl">
 					<!-- Component -->
@@ -377,7 +377,7 @@
 			>
 				<!-- Component -->
 				<div
-					class="grid grid-cols-1 items-center gap-12 sm:gap-20 lg:grid-cols-2"
+					class="grid grid-cols-1 items-center gap-12 sm:gap-20 lg:grid-cols-2 mx-auto"
 				>
 					<!-- Heading Div -->
 					<div class="max-w-[720px]">
@@ -482,7 +482,7 @@
 
 		<section>
 			<!-- Container -->
-			<div class="max-w-7xl px-5 py-16 md:px-10 md:py-16 lg:py-24">
+			<div class="max-w-7xl px-5 py-16 md:px-10 md:py-16 lg:py-24 mx-auto">
 				<!-- Heading Div -->
 				<div class="mx-auto w-full max-w-3xl text-center">
 					<h2 class="text-3xl font-semibold md:text-5xl">
@@ -643,7 +643,7 @@
 		</section>
 
 		<section class="relative">
-			<div class="max-w-7xl px-5 py-16 md:px-10 md:py-16 lg:py-24">
+			<div class="max-w-7xl px-5 py-16 md:px-10 md:py-16 lg:py-24 mx-auto">
 				<!-- Heading Text -->
 				<h2
 					class="mx-auto mb-6 w-full max-w-3xl text-center text-3xl font-semibold md:mb-12 md:text-5xl"
@@ -1286,12 +1286,12 @@
 			</div>
 		</section>
 
-		<header>
+		<header class="w-full">
 			<!-- Container -->
-			<div class="px-5 py-16 md:px-10 md:py-16 lg:py-24">
+			<div class="px-5 py-16 md:px-10 md:py-16 lg:py-24 mx-auto">
 				<!-- Component -->
 				<div
-					class="w-full max-w-7xl rounded-[48px] bg-cover bg-center bg-no-repeat py-20 text-white [box-shadow:rgb(106,_218,_255)_9px_9px]"
+					class="w-full mx-auto max-w-7xl rounded-[48px] bg-cover bg-center bg-no-repeat py-20 text-white [box-shadow:rgb(106,_218,_255)_9px_9px]"
 					style="
 						background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a6daa19785eb51dd3666_CTA%20(2).svg');
 					"
