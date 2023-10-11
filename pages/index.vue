@@ -11,7 +11,7 @@
 				>
 					<!-- Heading Text -->
 					<h1 class="mb-4 text-4xl font-bold md:text-6xl">
-						Tailspark Quantum Components
+						Tailspark Jetpack Components
 					</h1>
 					<div class="mb-5 max-w-[528px] lg:mb-8">
 						<p class="text-[#7c8aaa]">
@@ -25,7 +25,7 @@
 							href="https://tailspark.co/"
 							target="_blank"
 							class="mr-4 rounded-full bg-[#2d6ae0] px-8 py-5 text-center font-bold text-white transition hover:bg-[#081631]"
-							>View Hundreds of Components</a
+							>Copy All Jetpack Components</a
 						>
 						<a
 							href="https://tailspark.co/"

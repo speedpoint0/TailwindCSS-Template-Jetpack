@@ -1,6 +1,6 @@
-# Tailspark TailwindCSS Components - Quantum Style 🎨✨
+# Tailspark TailwindCSS Components - Jetpack Style 🎨✨
 
-Welcome! In this repository, you'll find the code for all of our **Layout style components**. You are free to clone and use them for both personal and commercial projects.
+Welcome! In this repository, you'll find the code for all of our **Jetpack Templates**. You are free to clone and use them for both personal and commercial projects.
 
 [![Tailspark Logo](https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Favicon%20256x256.png?alt=media&token=f4e71e40-a347-48c9-97bc-42f34c7d10a7)](https://tailspark.co/)
 
