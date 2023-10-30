@@ -1293,7 +1293,7 @@
 				<div
 					class="w-full mx-auto max-w-7xl rounded-[48px] bg-cover bg-center bg-no-repeat py-20 text-white [box-shadow:rgb(106,_218,_255)_9px_9px]"
 					style="
-						background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a6daa19785eb51dd3666_CTA%20(2).svg');
+						background-image: url('https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/6391a6daa19785eb51dd3666_CTA%20(2)%20(1).svg?alt=media&token=b877deae-f9fb-4f75-ad69-cbc62e593e50');
 					"
 				>
 					<div class="mx-auto max-w-3xl text-center">
