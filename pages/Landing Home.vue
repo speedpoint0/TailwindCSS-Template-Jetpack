@@ -163,10 +163,7 @@
             <h1 class="mb-4 text-4xl font-semibold md:text-6xl">
               The Website You Want Without The
               <span
-                class="bg-cover bg-center px-4 text-white"
-                style="
-                  background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6390526ac2a607693620c97b_Rectangle%2010.svg');
-                "
+                class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6390526ac2a607693620c97b_Rectangle%2010.svg')]"
                 >Dev Time</span
               >
             </h1>
@@ -300,10 +297,7 @@
             <h2 class="text-3xl font-semibold md:text-5xl">
               How it
               <span
-                class="bg-cover bg-center bg-no-repeat px-4 text-white"
-                style="
-                  background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg');
-                "
+                class="bg-cover bg-center bg-no-repeat px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')]"
                 >works</span
               >
             </h2>
@@ -396,10 +390,7 @@
             <h2 class="mb-4 text-3xl font-semibold md:text-5xl">
               Make every step
               <span
-                class="bg-cover bg-center px-4 text-white"
-                style="
-                  background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg');
-                "
+                class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')]"
                 >user-centric</span
               >
             </h2>
@@ -459,17 +450,11 @@
             <h2 class="mb-4 text-3xl font-semibold md:text-5xl">
               Understand
               <span
-                class="bg-cover bg-center px-4 text-white"
-                style="
-                  background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg');
-                "
+                class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')]"
                 >sales</span
               >
               <span
-                class="bg-cover bg-center px-4 text-white"
-                style="
-                  background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg');
-                "
+                class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg')]"
                 >performance</span
               >
               better
@@ -506,10 +491,7 @@
           <h2 class="text-3xl font-semibold md:text-5xl">
             Make every step
             <span
-              class="bg-cover bg-center bg-no-repeat px-4 text-white"
-              style="
-                background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg');
-              "
+              class="bg-cover bg-center bg-no-repeat px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg')]"
               >user-centric</span
             >
           </h2>
@@ -672,10 +654,7 @@
         >
           What
           <span
-            class="bg-contain bg-center bg-no-repeat px-4 text-white"
-            style="
-              background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391714b7ac2b51acc1a2548_Rectangle%2017%20(1).svg');
-            "
+            class="bg-contain bg-center bg-no-repeat px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391714b7ac2b51acc1a2548_Rectangle%2017%20(1).svg')]"
             >our clients</span
           >
           are saying
@@ -1005,10 +984,7 @@
         >
           <h2 class="text-3xl font-semibold md:text-5xl">
             <span
-              class="bg-cover bg-center bg-no-repeat px-4 text-white"
-              style="
-                background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg');
-              "
+              class="bg-cover bg-center bg-no-repeat px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg')]"
               >Simple &amp; Affordable</span
             >
             Pricing
@@ -1205,10 +1181,7 @@
           <h2 class="text-3xl font-semibold md:text-5xl">
             Frequently Asked
             <span
-              class="bg-cover bg-center px-4 text-white"
-              style="
-                background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg');
-              "
+              class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')]"
               >Questions</span
             >
           </h2>
@@ -1401,20 +1374,14 @@
       >
         <!-- Component -->
         <div
-          class="w-full mx-auto max-w-7xl rounded-[48px] bg-cover bg-center bg-no-repeat py-20 text-white [box-shadow:rgb(106,_218,_255)_9px_9px]"
-          style="
-            background-image: url('https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/6391a6daa19785eb51dd3666_CTA%20(2)%20(1).svg?alt=media&token=b877deae-f9fb-4f75-ad69-cbc62e593e50');
-          "
+          class="w-full mx-auto max-w-7xl rounded-[48px] bg-cover bg-center bg-no-repeat py-20 text-white [box-shadow:rgb(106,_218,_255)_9px_9px] bg-[url('https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/6391a6daa19785eb51dd3666_CTA%20(2)%20(1).svg?alt=media&token=b877deae-f9fb-4f75-ad69-cbc62e593e50')]"
         >
           <div class="mx-auto max-w-3xl text-center">
             <!-- Heading Div -->
             <div class="mb-6 max-w-[720px] lg:mb-12">
               <h2 class="mb-4 text-3xl font-semibold md:text-5xl">
                 <span
-                  class="bg-cover bg-center px-4 text-white"
-                  style="
-                    background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a5b04f2836ad87dcc3bc_Rectangle%20773.svg');
-                  "
+                  class="bg-cover bg-center px-4 text-white bg-[ background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a5b04f2836ad87dcc3bc_Rectangle%20773.svg')]"
                   >Lightning Fast</span
                 >&nbsp;Webflow Dev Made Easy
               </h2>
