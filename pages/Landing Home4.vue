@@ -692,10 +692,7 @@
           <h2 class="text-3xl font-semibold md:text-5xl">
             Our Team
             <span
-              class="bg-cover bg-center px-4 text-white"
-              style="
-                background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg');
-              "
+              class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')]"
               >Members</span
             >
           </h2>
@@ -1082,10 +1079,7 @@
             <h2 class="text-3xl font-semibold md:text-5xl">
               The Latest And Greatest
               <span
-                class="bg-cover bg-center px-4 text-white"
-                style="
-                  background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg');
-                "
+                class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')]"
                 >News</span
               >
             </h2>
@@ -1249,10 +1243,7 @@
     </section>
 
     <footer
-      class="bg-black bg-cover bg-center text-white"
-      style="
-        background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6399731b4cdf484f42d3d80b_Mask%20group%20(2).svg');
-      "
+      class="bg-black bg-cover bg-center text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6399731b4cdf484f42d3d80b_Mask%20group%20(2).svg')]"
     >
       <div
         class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32"

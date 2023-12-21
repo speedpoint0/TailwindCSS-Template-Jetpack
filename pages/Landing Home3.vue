@@ -226,7 +226,7 @@
     <section>
       <!-- Container -->
       <div
-        class="mx-auto w-full max-w-7xl pt-16 pb-32"
+        class="mx-auto w-full max-w-7xl pt-16 pb-32 px-5 md:px-10"
         data-aos="fade-up"
         data-aos-duration="900"
       >
@@ -239,10 +239,7 @@
             <h1 class="mb-4 text-4xl font-semibold md:text-6xl">
               The Website You Want Without The
               <span
-                class="bg-cover bg-center px-4 text-white"
-                style="
-                  background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6390526ac2a607693620c97b_Rectangle%2010.svg');
-                "
+                class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6390526ac2a607693620c97b_Rectangle%2010.svg')]"
                 >Dev Time</span
               >
             </h1>
@@ -482,10 +479,7 @@
           <h2 class="text-3xl font-semibold md:text-5xl">
             How it
             <span
-              class="bg-cover bg-center px-4 text-white"
-              style="
-                background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg');
-              "
+              class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')]"
               >works</span
             >
           </h2>
@@ -586,10 +580,7 @@
           <h2 class="text-3xl font-semibold md:text-5xl">
             Make Every Step
             <span
-              class="bg-cover bg-center bg-no-repeat px-4 text-white"
-              style="
-                background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg');
-              "
+              class="bg-cover bg-center bg-no-repeat px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/63915f9749aaab0572c48dae_Rectangle%2018.svg')]"
               >User-Centric</span
             >
           </h2>
@@ -686,10 +677,7 @@
           <h2 class="text-3xl font-semibold md:text-5xl">
             Our Team
             <span
-              class="bg-cover bg-center px-4 text-white"
-              style="
-                background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg');
-              "
+              class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')]"
               >Members</span
             >
           </h2>
@@ -851,10 +839,7 @@
           <div class="flex max-w-2xl flex-col items-start">
             <h2 class="text-3xl mb-[30px] font-semibold md:text-5xl">
               <span
-                class="bg-cover bg-center bg-no-repeat px-4 text-white"
-                style="
-                  background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391714b7ac2b51acc1a2548_Rectangle%2017%20(1).svg');
-                "
+                class="bg-cover bg-center bg-no-repeat px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391714b7ac2b51acc1a2548_Rectangle%2017%20(1).svg')]"
                 >Let's Build</span
               >
               <br />Something <br />Exciting Together
@@ -973,19 +958,13 @@
       >
         <!-- Component -->
         <div
-          class="mx-auto max-w-7xl rounded-[48px] bg-cover bg-center bg-no-repeat py-20 text-center [box-shadow:rgb(106,_218,_255)_9px_9px] max-[479px]:px-2"
-          style="
-            background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a6daa19785eb51dd3666_CTA%20(2).svg');
-          "
+          class="mx-auto max-w-7xl rounded-[48px] bg-cover bg-center bg-no-repeat py-20 text-center [box-shadow:rgb(106,_218,_255)_9px_9px] max-[479px]:px-2 bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a6daa19785eb51dd3666_CTA%20(2).svg')]"
         >
           <!-- Heading Text -->
           <div class="mx-auto mb-6 max-w-[720px] md:mb-12">
             <h2 class="mb-4 text-3xl font-semibold md:text-5xl">
               <span
-                class="bg-cover bg-center px-4 text-white"
-                style="
-                  background-image: url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a5b04f2836ad87dcc3bc_Rectangle%20773.svg');
-                "
+                class="bg-cover bg-center px-4 text-white bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/6391a5b04f2836ad87dcc3bc_Rectangle%20773.svg')]"
                 >Lightning Fast</span
               >&nbsp;Webflow Dev Made Easy
             </h2>
