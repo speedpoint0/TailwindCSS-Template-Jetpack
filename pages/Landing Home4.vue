@@ -2,17 +2,17 @@
   <div class="relative">
     <!-- Navbar Dropdown 1 row -->
     <nav
-      class="font-inter mx-auto h-auto w-full lg:sticky top-0 z-20 bg-[#fff]"
+      class="font-inter mx-auto h-auto w-full mb-12 lg:sticky top-0 z-20 bg-[#fff]"
       x-data="{isOpen: false, menuOne:false}"
     >
       <!-- CONTAINER -->
       <div
-        class="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4"
+        class="flex max-w-7xl flex-col px-5 py-6 lg:flex-row lg:items-center lg:justify-between md:px-10 lg:py-4 mx-auto"
       >
         <!-- SVG LOGO - YOU CAN REPLACE THIS -->
         <a href="#">
           <svg
-            class="relative left-5 lg:inset-0"
+            class="relative"
             width="127"
             height="27"
             viewBox="0 0 127 27"

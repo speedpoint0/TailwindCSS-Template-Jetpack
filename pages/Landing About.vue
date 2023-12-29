@@ -7,12 +7,12 @@
     >
       <!-- CONTAINER -->
       <div
-        class="flex flex-col px-6 py-6 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-4"
+        class="flex max-w-7xl flex-col px-5 py-6 lg:flex-row lg:items-center lg:justify-between md:px-10 lg:py-4 mx-auto"
       >
         <!-- SVG LOGO - YOU CAN REPLACE THIS -->
         <a href="#">
           <svg
-            class="relative left-5 lg:inset-0"
+            class="relative"
             width="127"
             height="27"
             viewBox="0 0 127 27"
@@ -794,7 +794,7 @@
     <header>
       <!-- Container -->
       <div
-        class="px-5 pb-16 md:px-10 md:pb-24 lg:pb-32"
+        class="px-5 pb-16 md:px-10 md:pb-24 lg:pb-32 max-w-7xl mx-auto"
         data-aos="fade-up"
         data-aos-duration="900"
       >
